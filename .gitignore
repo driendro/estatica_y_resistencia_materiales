@@ -1,19 +1,54 @@
-jboss/server/all/deploy/project.ext
-jboss/server/default/deploy/project.ext
-jboss/server/minimal/deploy/project.ext
-jboss/server/all/log/*.log
-jboss/server/all/tmp/**/*
-jboss/server/all/data/**/*
-jboss/server/all/work/**/*
-jboss/server/default/log/*.log
-jboss/server/default/tmp/**/*
-jboss/server/default/data/**/*
-jboss/server/default/work/**/*
-jboss/server/minimal/log/*.log
-jboss/server/minimal/tmp/**/*
-jboss/server/minimal/data/**/*
-jboss/server/minimal/work/**/*
+# Archivo .gitignore para proyectos de Quarto y Python
 
-# deployed package files #
+# ################ #
+# Archivos de Quarto
+# ################ #
 
-*.DEPLOYED
+# Carpeta de caché y metadatos de Quarto
+/_quarto/
+
+# Carpeta de caché de ejecución ("freeze")
+/_freeze/
+
+# Otras carpetas de caché
+/*_cache/
+
+# Archivos de salida generados por Quarto.
+# ¡OJO! La línea de abajo está comentada a propósito.
+# Descoméntala si NO quieres subir los HTML a tu repositorio.
+# Para GitHub Pages, necesitas que esta línea esté comentada.
+# *.html
+*.pdf
+*.docx
+*.epub
+
+
+# ############################ #
+# Archivos de Python y Jupyter
+# ############################ #
+
+# Carpetas de caché de Python
+__pycache__/
+.ipynb_checkpoints/
+
+# Archivos de Python compilados
+*.pyc
+
+# Entornos virtuales
+.venv/
+venv/
+env/
+
+
+# ################# #
+# Archivos de SO/IDE
+# ################# #
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+
+# VS Code
+.vscode/
