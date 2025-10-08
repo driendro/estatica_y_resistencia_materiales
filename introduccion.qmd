@@ -1,11 +1,18 @@
 ---
 title: "¡Arrancando con Resistencia de Materiales! ⚙️"
-author: "Tu Nombre Aquí"
+author: "Ronconi Jorge"
 format: 
   revealjs:
-    theme: default # Puedes cambiar el tema, por ej: dark, solarized, blood
+    theme: solarized # Puedes cambiar el tema, por ej: dark, solarized, blood
     slide-number: true
     chalkboard: true # Habilita una pizarra para dibujar en vivo
+    output-file: introduccion_presentacion.html
+  html:
+    toc: true
+    code-fold: true
+    output-file: introduccion_apunte.html
+  epub: default
+  pdf: default
 lang: es    
 ---
 
