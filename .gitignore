@@ -18,9 +18,9 @@
 # Descoméntala si NO quieres subir los HTML a tu repositorio.
 # Para GitHub Pages, necesitas que esta línea esté comentada.
 # *.html
-*.pdf
+#*.pdf
 *.docx
-*.epub
+#*.epub
 
 
 # ############################ #
