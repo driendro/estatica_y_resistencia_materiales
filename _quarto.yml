@@ -1,0 +1,54 @@
+project:
+  type: website
+  output-dir: _site
+
+editor:
+  render-on-save: true
+
+website:
+  title: "Resistencia de Materiales"
+  navbar:
+    left:
+      - text: "Inicio"
+        href: index.qmd
+      - text: "Capítulos"
+        menu:
+          - text: "Capítulo 1: Introducción"
+            href: capitulo1/contenido.qmd
+          - text: "Capítulo 2: Título"
+            href: capitulo2/contenido.qmd
+      - text: "Planificaciones"
+        menu:
+          - text: "Estabilidad (Electrica)"
+            href: planificacion/estabilidad.qmd
+    right:
+      - icon: github
+        href: https://github.com/driendro/estatica_y_resistencia_materiales
+
+  sidebar:
+    style: "docked"
+    contents:
+      - section: "Capítulo 1"
+        contents:
+          - text: "Web"
+            href: capitulo1/contenido.qmd
+          - text: "Presentación"
+            href: capitulo1/presentacion.html
+          - text: "PDF"
+            href: capitulo1/capitulo1.pdf
+      - section: "Capítulo 2"
+        contents:
+          - text: "Web"
+            href: capitulo2/contenido.qmd
+          - text: "Presentación"
+            href: capitulo2/presentacion.html
+          - text: "PDF"
+            href: capitulo2/capitulo2.pdf
+
+format:
+  html:
+    theme: cosmo
+    css: styles.css
+    toc: true
+
+lang: es

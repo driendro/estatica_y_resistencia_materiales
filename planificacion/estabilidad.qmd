@@ -1,0 +1,165 @@
+---
+title: "Planificación del Curso de Resistencia de Materiales"
+author: "Ronconi Jorge"
+format: 
+  html:
+    toc: true
+    code-fold: true
+    output-file: estabilidad.html
+  epub: default
+  pdf:
+    output-file: estabilidad.pdf
+lang: es    
+---
+
+
+## Datos Administrativos de la Asignatura
+
+| | | | |
+|---|---|---|---|
+| **Departamento:** | | **Carrera:** | |
+| **Asignatura:** | | **Nivel de la carrera:** | |
+| **Bloque curricular:** | | **Duración:** | |
+| **Carga horaria presencial semanal:** | | **Carga Horaria total:** | |
+| **Carga horaria no presencial semanal (si correspondiese):** | | **% horas no presenciales (si correspondiese):** | |
+| **Profesor/es Titular/Asociado/Adjunto:** | | **Dedicación:** | |
+| **Auxiliar/es de 1º/JTP:** | | **Dedicación:** | |
+
+## Presentación y Fundamentación
+
+*Describir la fundamentación de la inclusión de la asignatura en el plan de estudios de la carrera.*
+
+### Relación de la asignatura con el perfil de egreso
+*Describir la relación y los aportes de la asignatura al perfil de egreso.*
+
+### Relación de la asignatura con los alcances del título
+*Describir la relación y los aportes de la asignatura con los alcances del título.*
+
+## Relación de la asignatura con las competencias de egreso de la carrera
+
+*Detallar, en la tabla siguiente, la relación de la asignatura con las competencias de egreso específicas, genéricas tecnológicas, sociales, políticas y actitudinales de la carrera. Indicar a cuáles competencias de egreso tributa (aportes reales y significativos de la asignatura) y en qué nivel (0=no tributa, 1=bajo, 2=medio, 3=alto). Agregar un comentario general de justificación. (Este detalle se integrará en una matriz de tributación de la carrera, dictada en la Facultad Regional, en la cual se explicite el desarrollo de las competencias específicas y genéricas de la carrera y el nivel en que tributa cada asignatura).*
+
+| Competencias específicas de la carrera (CE) | Competencias genéricas tecnológicas (CT) | Competencias genéricas sociales, políticas y actitudinales (CS) |
+|---|---|---|
+| CE1: | CT1: | CS1: |
+| CE2: | CT2: | CS2: |
+| CE3: | CT3: | CS3: |
+| CE..: | CT..: | CGS: |
+
+## Propósito
+
+*Describir la meta y/o propósito principal de la asignatura en relación con los aprendizajes a lograr por las y los estudiantes.*
+
+> **Por ejemplo:** “Brindar a las y los estudiantes herramientas matemáticas sólidas que impacten positivamente en el estudio de problemas elementales de la ingeniería mecánica, desde la aplicación de su concepción teórica y mediante el uso de la herramienta computacional.”
+
+## Objetivos establecidos en el DC
+
+*Transcribir los objetivos establecidos en el DC vigente para la asignatura.*
+
+## Resultados de aprendizaje
+
+*Describir y explicar los Resultados de aprendizaje a promover en el desarrollo de la asignatura. Argumentar su cantidad, sus componentes y la manera en que cada resultado de aprendizaje contribuye al desarrollo de las competencias que aborda la asignatura:*
+
+-   **RA1:**
+-   **RA2:**
+-   **RA...:**
+
+## Asignaturas Correlativas
+
+### Asignaturas correlativas previas
+
+-   **Para cursar debe tener cursada:** Asignatura x, Asignatura …
+-   **Para cursar debe tener aprobada:** Asignatura y, Asignatura …
+-   **Para rendir debe tener aprobada:** Asignatura z, Asignatura ...
+
+### Asignaturas correlativas posteriores
+
+-   **Indicar las asignaturas correlativas posteriores:** Asignatura x, Asignatura ...
+
+## Programa Analítico y Unidades Temáticas
+
+*El programa analítico deberá contemplar los contenidos mínimos, previstos en el diseño curricular vigente, y aquellos que se consideren necesarios para desarrollar los resultados de aprendizaje propuestos. Explicitar el Programa analítico de la asignatura detallando: Unidades / Ejes temáticos / Contenidos / Carga horaria por unidad / Carga horaria por tipo de formación práctica (si correspondiese).*
+
+## Metodología de Enseñanza
+
+*Describir las metodologías de enseñanza utilizadas por las y los docentes a lo largo del periodo asignado (cuatrimestral o anual) para promover el desarrollo de los Resultados de aprendizaje y en relación las competencias de egreso, propósito y objetivos que desarrolla la asignatura.*
+
+*Describir el enfoque de enseñanza adoptado, así como las estrategias de trabajo en equipos colaborativos, aula invertida y otras metodologías de aprendizaje activo y centrado en el estudiante aplicadas para promover el desarrollo de los resultados de aprendizaje.*
+
+*Detallar las características de las actividades prácticas a desarrollar, el uso de laboratorios físicos y/o remotos/virtuales (si correspondiese) y la utilización significativa del Campus Virtual Global (u otro entorno virtual de enseñanza y aprendizaje) y otros recursos basados en TIC.*
+
+## Recomendaciones para el estudio
+
+*Describir las principales recomendaciones que se les pueden hacer a los/las estudiantes para abordar el aprendizaje de la asignatura, teniendo en cuenta la experiencia del cuerpo docente respecto de desarrollos anteriores.*
+
+## Metodología de Evaluación
+
+*El modelo de enseñanza basado en competencias implica que las y los docentes apliquen metodologías e instrumentos de evaluación que permitan conocer el nivel de desarrollo de las competencias que aborda la asignatura.*
+
+*Describir las estrategias de evaluación previstas durante el desarrollo de la asignatura a lo largo de todo el periodo asignado (cuatrimestral o anual) que podrán ser formativas, sumativas, de proceso, diagnósticas, autoevaluación, evaluación por pares. Describir los instrumentos y recursos que se utilizarán en cada instancia de evaluación (como ser clases, trabajos prácticos, proyectos, exposiciones orales, cuestionarios, portafolios, exámenes parciales) y todo instrumento que permita al estudiante demostrar su nivel de desempeño y obtener una retroalimentación significativa para mejorar. Considerar los siguientes aspectos:*
+
+-   **Evaluación de cada Resultado de Aprendizaje:** Indicar instrumentos de evaluación mediante los cuales se recogerán las evidencias para determinar el nivel de logro de cada resultado de aprendizaje. (La evaluación de resultados de aprendizaje, generalmente de carácter integrador, se puede realizar en forma indirecta o directa. En este último caso, las evidencias surgen de instrumentos de evaluación variados).
+-   **Rúbricas:** Son tablas de doble entrada en las cuales se relacionan los criterios de las competencias con los niveles de dominio y se integran las evidencias que deben aportar los estudiantes durante el proceso. Una rúbrica configurada mediante los niveles de dominio indicados es a la vez, un mapa de aprendizaje, porque señala los retos progresivos a ser alcanzados por los estudiantes en una asignatura o módulo formativo. Igualmente muestra los logros y aspectos a mejorar más relevantes durante el proceso. Son guías de puntaje que permiten describir el grado en el cual un estudiante está ejecutando un proceso o un producto.
+-   **Condiciones de aprobación:** En este punto se expresan cuáles serán los requisitos para aprobación Directa y No directa, compatible con la normativa vigente.
+
+## Cronograma de Clases/Trabajos Prácticos/Exámenes (tentativo)
+
+*Detallar el cronograma de clases, trabajos prácticos y evaluaciones previstos para el desarrollo de la asignatura. Considerando entre otros los siguientes aspectos:*
+
+-   Cronograma de cada actividad presencial o virtual, indicando a cargo de quien estará (docentes y/o estudiantes).
+-   Indicación del o la docente responsable de cada actividad (definición de roles tareas del equipo docente).
+-   Indicación precisa del tiempo de cada una de las actividades.
+-   Cronograma de las instancias de evaluación parciales e integración.
+
+## Recursos Necesarios
+
+*Detallar los recursos necesarios para el desarrollo de la asignatura. Considerar todos los aspectos docentes, institucionales y estudiantiles de manera de conocer y planificar, con previsión, las necesidades para alcanzar los Resultados de Aprendizaje previstos incluyendo, entre otros, los siguientes ítems:*
+
+-   Espacios Físicos (aulas, laboratorios, equipamiento informático, etc.).
+-   Recursos tecnológicos de apoyo (proyector multimedia, software, equipo de sonido, aulas virtuales, etc.).
+-   Transporte, seguro, y elementos de protección para desarrollar actividades en laboratorios, empresas, fábricas, etc.
+-   Otros.
+
+## Referencias Bibliográficas (citadas según Normas APA)
+
+*Bibliografía obligatoria, optativa y otros materiales del curso.*
+
+## Función Docencia
+
+*Detallar las actividades previstas respecto a la función docencia en el marco de la asignatura.*
+
+### Reuniones de asignatura y área
+*Detalle y cronograma previsto de reuniones de cátedra y área.*
+
+### Atención y orientación a las y los estudiantes
+-   *Detalle y cronograma de actividades de trabajo de campo, visitas y/o pasantías previstas en el desarrollo de la asignatura.*
+-   *Detalle y cronograma de actividades de atención y orientación a las y los estudiantes (dentro y/o fuera del horario de clase).*
+-   *Momento de recuperación de actividades no cumplidas.*
+-   *Actividades previas a la clase que deben realizar los y las estudiantes (sugerencias de revisión de conceptos teóricos y actividades prácticas, así como un recordatorio de las actividades pendientes).*
+-   *Actividades posteriores a la clase que deben realizar los y las estudiantes, en horario no presencial.*
+-   *Actividades de aprendizaje autónomo.*
+
+---
+
+# ANEXO 1: FUNCIÓN INVESTIGACIÓN Y EXTENSIÓN (si corresponde)
+
+*En este Anexo 1 (a completar si correspondiese) la cátedra detallará las actividades previstas respecto a la función docencia en el marco de la asignatura.*
+
+### Lineamientos de Investigación de la cátedra
+*Para introducir a las y los estudiantes a las actividades de investigación que realiza la cátedra. Se recomienda incorporar al Programa analítico de la asignatura los lineamientos de investigación en los cuales la asignatura este participando.*
+
+### Lineamientos de Extensión de la cátedra
+*Para introducir a las y los estudiantes a las actividades de Extensión que realiza la cátedra. Se recomienda incorporar al Programa analítico de la asignatura los programas de Extensión en los cuales la asignatura este participando.*
+
+### Actividades en las que pueden participar las y los estudiantes
+*Incluir todas aquellas instancias en las cuales las y los estudiantes puedan incorporarse como participantes activos tanto en proyectos de investigación como de extensión, en la asignatura o mediante el trabajo conjunto con otras asignaturas.*
+
+#### Eje: Investigación
+| Proyecto | Cronograma de actividades |
+|---|---|
+| | |
+
+#### Eje: Extensión
+| Proyecto | Cronograma de actividades |
+|---|---|
+| | |

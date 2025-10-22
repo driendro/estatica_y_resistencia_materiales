@@ -1,0 +1,23 @@
+---
+title: "Bienvenida"
+---
+
+
+# Apuntes de Resistencia de Materiales
+
+Este sitio contiene los apuntes, presentaciones y material de la materia de estructura de la UTN-FRLP.
+ 
+ - Estática y Resistencia de Materiales (Industrial)
+ - Estabilidad (Eléctrica) [Planificación](planificacion/estabilidad.qmd)
+ - Estabilidad (Civil)
+ - Estabilidad I (Mecánica)
+ - Resistencia de Materiales (Civil)
+
+## Contenidos
+
+- [Capítulo 1: Introducción](capitulo1/contenido.qmd)
+- [Capítulo 2: Despedida](capitulo2/contenido.qmd)
+
+- [ejemplo: Despedida](ejemplo/contenido.qmd)
+
+Cada capítulo incluye versión HTML, PDF, EPUB y presentación interactiva.

@@ -1,18 +1,19 @@
 ---
-title: "¡Arrancando con Resistencia de Materiales! ⚙️"
+title: "¡Finalizando con Resistencia de Materiales! ⚙️"
 author: "Ronconi Jorge"
 format: 
   revealjs:
     theme: solarized # Puedes cambiar el tema, por ej: dark, solarized, blood
     slide-number: true
     chalkboard: true # Habilita una pizarra para dibujar en vivo
-    output-file: introduccion_presentacion.html
+    output-file: presentacion.html
   html:
     toc: true
     code-fold: true
-    output-file: introduccion_apunte.html
+    output-file: apunte.html
   epub: default
-  pdf: default
+  pdf:
+    output-file: capitulo2.pdf
 lang: es    
 ---
 
