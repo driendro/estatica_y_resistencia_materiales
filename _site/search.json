@@ -189,279 +189,135 @@
     "text": "Verificacion a Corte\nUna vez obtenido el perfil, debemos verificar que el mismo soporte el Corte\n\\[\n\\tau = \\frac{Q \\cdot S*}{J \\cdot b} = \\frac{3500 \\cdot 162}{3060 \\cdot 0.81} = 228.75\n\\]\nDonde:\n\n\\(Q\\) Valor del corte \\(3500 kg\\)\nS* Momento estatico de primer orden de media seccion.\nJ Momento Estatico de Segundo Orden\nb Espesor del Alma del perfil"
   },
   {
-    "objectID": "capitulo1/presentacion.html#bienvenida",
-    "href": "capitulo1/presentacion.html#bienvenida",
-    "title": "¡Arrancando con Resistencia de Materiales! ⚙️",
+    "objectID": "capitulo2/presentacion.html#bienvenida",
+    "href": "capitulo2/presentacion.html#bienvenida",
+    "title": "¡Finalizando con Resistencia de Materiales! ⚙️",
     "section": "Bienvenida",
     "text": "Bienvenida\nLa Resistencia de Materiales es la materia que nos deja chusmear qué pasa adentro de los objetos cuando les aplicamos fuerzas.\n\n\n\n\n\n\nNota\n\n\nPiénsalo así: es el siguiente nivel después de lo que ya vieron en Estática y Dinámica.\n\nCon Estática, si algo no se mueve, calculamos las fuerzas para que se quede quieto.\nCon Dinámica, si se mueve, calculamos cómo lo hace.\n\n\n\n\nPero nos falta responder preguntas clave… ¿El material se la banca? ¿Se deforma? ¿Se rompe?",
     "crumbs": [
       "Inicio",
-      "Capítulo 1",
+      "Capítulo 2",
       "Presentación"
     ]
   },
   {
-    "objectID": "capitulo1/presentacion.html#para-qué-nos-sirve-todo-esto",
-    "href": "capitulo1/presentacion.html#para-qué-nos-sirve-todo-esto",
-    "title": "¡Arrancando con Resistencia de Materiales! ⚙️",
+    "objectID": "capitulo2/presentacion.html#para-qué-nos-sirve-todo-esto",
+    "href": "capitulo2/presentacion.html#para-qué-nos-sirve-todo-esto",
+    "title": "¡Finalizando con Resistencia de Materiales! ⚙️",
     "section": "¿Para qué nos sirve todo esto?",
     "text": "¿Para qué nos sirve todo esto?\nSaber solo las fuerzas de afuera no alcanza. Para que quede más claro, miremos esta estructura súper simple:\nCon Estática, podemos calcular las reacciones en los soportes y listo. Pero en la vida real, un ingeniero se hace otras preguntas…",
     "crumbs": [
       "Inicio",
-      "Capítulo 1",
+      "Capítulo 2",
       "Presentación"
     ]
   },
   {
-    "objectID": "capitulo1/presentacion.html#las-preguntas-del-millón",
-    "href": "capitulo1/presentacion.html#las-preguntas-del-millón",
-    "title": "¡Arrancando con Resistencia de Materiales! ⚙️",
+    "objectID": "capitulo2/presentacion.html#las-preguntas-del-millón",
+    "href": "capitulo2/presentacion.html#las-preguntas-del-millón",
+    "title": "¡Finalizando con Resistencia de Materiales! ⚙️",
     "section": "Las preguntas del millón 🤔",
     "text": "Las preguntas del millón 🤔\nPensemos en cada parte de la estructura:\n1. Sobre la viga BC:\n\nSi la viga ya existe, ¿aguanta las cargas o se rompe?\n¿Se va a doblar o deformar mucho? ¿Cuánto exactamente?\nSi la tengo que diseñar yo, ¿qué forma y tamaño me conviene para que sea barata pero segura?",
     "crumbs": [
       "Inicio",
-      "Capítulo 1",
+      "Capítulo 2",
       "Presentación"
     ]
   },
   {
-    "objectID": "capitulo1/presentacion.html#la-respuesta-mecánica-de-materiales",
-    "href": "capitulo1/presentacion.html#la-respuesta-mecánica-de-materiales",
-    "title": "¡Arrancando con Resistencia de Materiales! ⚙️",
+    "objectID": "capitulo2/presentacion.html#la-respuesta-mecánica-de-materiales",
+    "href": "capitulo2/presentacion.html#la-respuesta-mecánica-de-materiales",
+    "title": "¡Finalizando con Resistencia de Materiales! ⚙️",
     "section": "La respuesta: Mecánica de Materiales",
     "text": "La respuesta: Mecánica de Materiales\nBueno, todas estas preguntas son el corazón de la Mecánica de Materiales.\nEsta materia nos da las herramientas para pasar de “las fuerzas que actúan sobre un objeto” a entender “lo que le pasa al material del objeto por dentro”.",
     "crumbs": [
       "Inicio",
-      "Capítulo 1",
+      "Capítulo 2",
       "Presentación"
     ]
   },
   {
-    "objectID": "capitulo1/presentacion.html#qué-son-las-estructuras",
-    "href": "capitulo1/presentacion.html#qué-son-las-estructuras",
-    "title": "¡Arrancando con Resistencia de Materiales! ⚙️",
+    "objectID": "capitulo2/presentacion.html#qué-son-las-estructuras",
+    "href": "capitulo2/presentacion.html#qué-son-las-estructuras",
+    "title": "¡Finalizando con Resistencia de Materiales! ⚙️",
     "section": "¿Qué son las “Estructuras”? 🏗️🚗✈️",
     "text": "¿Qué son las “Estructuras”? 🏗️🚗✈️\nEn ingeniería, casi todo lo que construimos es una “estructura”. No pienses solo en cosas gigantes como puentes o edificios. Una estructura puede ser también el chasis de un auto, el ala de un avión o el brazo de un robot.\nBásicamente, es cualquier cosa hecha de varias partes (“miembros”) ensambladas para aguantar cargas sin romperse ni deformarse demasiado.",
     "crumbs": [
       "Inicio",
-      "Capítulo 1",
+      "Capítulo 2",
       "Presentación"
     ]
   },
   {
-    "objectID": "capitulo1/presentacion.html#la-misma-idea-diferentes-aplicaciones",
-    "href": "capitulo1/presentacion.html#la-misma-idea-diferentes-aplicaciones",
-    "title": "¡Arrancando con Resistencia de Materiales! ⚙️",
+    "objectID": "capitulo2/presentacion.html#la-misma-idea-diferentes-aplicaciones",
+    "href": "capitulo2/presentacion.html#la-misma-idea-diferentes-aplicaciones",
+    "title": "¡Finalizando con Resistencia de Materiales! ⚙️",
     "section": "La misma idea, diferentes aplicaciones",
     "text": "La misma idea, diferentes aplicaciones\nLo genial de la Mecánica de Materiales es que sus principios son universales y se aplican a todas las ramas de la ingeniería.\nEl principio para diseñar la viga de un puente es el mismo que para diseñar el eje de una máquina.\n¿Qué es lo que cambia entonces?\n\nEl tipo y la cantidad de carga.\nLos materiales y las formas de las piezas.\nLas normas de seguridad de cada industria.",
     "crumbs": [
       "Inicio",
-      "Capítulo 1",
+      "Capítulo 2",
       "Presentación"
     ]
   },
   {
-    "objectID": "capitulo1/presentacion.html#el-corazón-del-asunto-análisis-y-diseño",
-    "href": "capitulo1/presentacion.html#el-corazón-del-asunto-análisis-y-diseño",
-    "title": "¡Arrancando con Resistencia de Materiales! ⚙️",
+    "objectID": "capitulo2/presentacion.html#el-corazón-del-asunto-análisis-y-diseño",
+    "href": "capitulo2/presentacion.html#el-corazón-del-asunto-análisis-y-diseño",
+    "title": "¡Finalizando con Resistencia de Materiales! ⚙️",
     "section": "El Corazón del Asunto: Análisis y Diseño",
     "text": "El Corazón del Asunto: Análisis y Diseño\nEl objetivo final es entender la relación entre estas tres cosas:\nFuerza de Afuera ➡️ Esfuerzo (Fuerza Interna) ➡️ Deformación\nEl truco para dominar la materia es ¡HACER MUCHOS EJERCICIOS! La práctica es fundamental.",
     "crumbs": [
       "Inicio",
-      "Capítulo 1",
+      "Capítulo 2",
       "Presentación"
     ]
   },
   {
-    "objectID": "capitulo1/presentacion.html#análisis-vs.-diseño",
-    "href": "capitulo1/presentacion.html#análisis-vs.-diseño",
-    "title": "¡Arrancando con Resistencia de Materiales! ⚙️",
+    "objectID": "capitulo2/presentacion.html#análisis-vs.-diseño",
+    "href": "capitulo2/presentacion.html#análisis-vs.-diseño",
+    "title": "¡Finalizando con Resistencia de Materiales! ⚙️",
     "section": "Análisis vs. Diseño",
     "text": "Análisis vs. Diseño\nEn la práctica, te vas a encontrar con dos tipos de problemas:\n1. Análisis (Modo Detective 🕵️) Te dan la pieza y tienes que investigar: ¿cuánto esfuerzo sufre? o ¿cuál es la carga máxima que aguanta?",
     "crumbs": [
       "Inicio",
-      "Capítulo 1",
+      "Capítulo 2",
       "Presentación"
     ]
   },
   {
-    "objectID": "capitulo1/presentacion.html#consejos-clave-para-resolver-problemas",
-    "href": "capitulo1/presentacion.html#consejos-clave-para-resolver-problemas",
-    "title": "¡Arrancando con Resistencia de Materiales! ⚙️",
+    "objectID": "capitulo2/presentacion.html#consejos-clave-para-resolver-problemas",
+    "href": "capitulo2/presentacion.html#consejos-clave-para-resolver-problemas",
+    "title": "¡Finalizando con Resistencia de Materiales! ⚙️",
     "section": "Consejos Clave para Resolver Problemas",
     "text": "Consejos Clave para Resolver Problemas\n1. ¡Dibuja, dibuja y dibuja! ✍️\n\nTe ayuda a entender el problema mucho más rápido.\nTe permite visualizar lo que está pasando.\n\n2. Sé Prolijo y Ordenado 🧘\n\nUn trabajo descuidado no sirve para repasar después.\nLa prolijidad te obliga a pensar de forma estructurada.",
     "crumbs": [
       "Inicio",
-      "Capítulo 1",
+      "Capítulo 2",
       "Presentación"
     ]
   },
   {
-    "objectID": "capitulo1/presentacion.html#la-batalla-de-los-sistemas-métrico-vs.-imperial-vs.",
-    "href": "capitulo1/presentacion.html#la-batalla-de-los-sistemas-métrico-vs.-imperial-vs.",
-    "title": "¡Arrancando con Resistencia de Materiales! ⚙️",
+    "objectID": "capitulo2/presentacion.html#la-batalla-de-los-sistemas-métrico-vs.-imperial-vs.",
+    "href": "capitulo2/presentacion.html#la-batalla-de-los-sistemas-métrico-vs.-imperial-vs.",
+    "title": "¡Finalizando con Resistencia de Materiales! ⚙️",
     "section": "La Batalla de los Sistemas: Métrico vs. Imperial 🌍 vs. 🇺🇸",
     "text": "La Batalla de los Sistemas: Métrico vs. Imperial 🌍 vs. 🇺🇸\nAunque el mundo de la ingeniería usa el Sistema Métrico (SI), en la práctica industrial (sobre todo en EE.UU.) el Sistema Imperial (pulgadas, libras) sigue muy presente.\nPara esta materia, no nos queda otra que aprender a trabajar cómodamente con los dos sistemas.\n\nRegla con ambos sistemas",
     "crumbs": [
       "Inicio",
-      "Capítulo 1",
+      "Capítulo 2",
       "Presentación"
     ]
   },
   {
-    "objectID": "capitulo1/presentacion.html#por-qué-no-debería-asustarte",
-    "href": "capitulo1/presentacion.html#por-qué-no-debería-asustarte",
-    "title": "¡Arrancando con Resistencia de Materiales! ⚙️",
+    "objectID": "capitulo2/presentacion.html#por-qué-no-debería-asustarte",
+    "href": "capitulo2/presentacion.html#por-qué-no-debería-asustarte",
+    "title": "¡Finalizando con Resistencia de Materiales! ⚙️",
     "section": "¿Por qué no debería asustarte?",
     "text": "¿Por qué no debería asustarte?\nAquí viene la buena noticia: a los materiales no les importa en qué los midas.\nLos principios de la Mecánica de Materiales son universales. La física de fondo no cambia.\nPasar de un sistema a otro es más fácil de lo que parece. Es solo un cambio en los números, no en las ideas fundamentales.",
     "crumbs": [
       "Inicio",
-      "Capítulo 1",
+      "Capítulo 2",
       "Presentación"
-    ]
-  },
-  {
-    "objectID": "capitulo1/apunte.html",
-    "href": "capitulo1/apunte.html",
-    "title": "¡Arrancando con Resistencia de Materiales! ⚙️",
-    "section": "",
-    "text": "La Resistencia de Materiales es la materia que nos deja chusmear qué pasa adentro de los objetos cuando les aplicamos fuerzas.\n\n\n\n\n\n\nNota\n\n\n\nPiénsalo así: es el siguiente nivel después de lo que ya vieron en Estática y Dinámica.\n\nCon Estática, si algo no se mueve, calculamos las fuerzas para que se quede quieto.\nCon Dinámica, si se mueve, calculamos cómo lo hace.\n\n\n\nPero nos falta responder preguntas clave… ¿El material se la banca? ¿Se deforma? ¿Se rompe?",
-    "crumbs": [
-      "Inicio",
-      "Capítulo 1",
-      "Web"
-    ]
-  },
-  {
-    "objectID": "capitulo1/apunte.html#bienvenida",
-    "href": "capitulo1/apunte.html#bienvenida",
-    "title": "¡Arrancando con Resistencia de Materiales! ⚙️",
-    "section": "",
-    "text": "La Resistencia de Materiales es la materia que nos deja chusmear qué pasa adentro de los objetos cuando les aplicamos fuerzas.\n\n\n\n\n\n\nNota\n\n\n\nPiénsalo así: es el siguiente nivel después de lo que ya vieron en Estática y Dinámica.\n\nCon Estática, si algo no se mueve, calculamos las fuerzas para que se quede quieto.\nCon Dinámica, si se mueve, calculamos cómo lo hace.\n\n\n\nPero nos falta responder preguntas clave… ¿El material se la banca? ¿Se deforma? ¿Se rompe?",
-    "crumbs": [
-      "Inicio",
-      "Capítulo 1",
-      "Web"
-    ]
-  },
-  {
-    "objectID": "capitulo1/apunte.html#para-qué-nos-sirve-todo-esto",
-    "href": "capitulo1/apunte.html#para-qué-nos-sirve-todo-esto",
-    "title": "¡Arrancando con Resistencia de Materiales! ⚙️",
-    "section": "¿Para qué nos sirve todo esto?",
-    "text": "¿Para qué nos sirve todo esto?\nSaber solo las fuerzas de afuera no alcanza. Para que quede más claro, miremos esta estructura súper simple:\nCon Estática, podemos calcular las reacciones en los soportes y listo. Pero en la vida real, un ingeniero se hace otras preguntas…",
-    "crumbs": [
-      "Inicio",
-      "Capítulo 1",
-      "Web"
-    ]
-  },
-  {
-    "objectID": "capitulo1/apunte.html#las-preguntas-del-millón",
-    "href": "capitulo1/apunte.html#las-preguntas-del-millón",
-    "title": "¡Arrancando con Resistencia de Materiales! ⚙️",
-    "section": "Las preguntas del millón 🤔",
-    "text": "Las preguntas del millón 🤔\nPensemos en cada parte de la estructura:\n1. Sobre la viga BC:\n\nSi la viga ya existe, ¿aguanta las cargas o se rompe?\n¿Se va a doblar o deformar mucho? ¿Cuánto exactamente?\nSi la tengo que diseñar yo, ¿qué forma y tamaño me conviene para que sea barata pero segura?\n\n\n2. Sobre la barra que la sostiene (AB):\n\nSi ya está puesta, ¿se banca la fuerza que le llega desde la viga?\n¿Cuál es la fuerza máxima que soporta y cuánto se va a estirar?\nSi la diseño de cero, ¿qué forma le doy para que no falle ni se estire de más?\n\n\n3. Sobre los demás componentes…\nTambién nos preguntamos sobre el poste de apoyo (CD) y los tornillos o pasadores (en A o B): ¿son lo suficientemente robustos?, ¿cuál es la carga máxima que aguantan?, ¿qué tamaño deben tener?",
-    "crumbs": [
-      "Inicio",
-      "Capítulo 1",
-      "Web"
-    ]
-  },
-  {
-    "objectID": "capitulo1/apunte.html#la-respuesta-mecánica-de-materiales",
-    "href": "capitulo1/apunte.html#la-respuesta-mecánica-de-materiales",
-    "title": "¡Arrancando con Resistencia de Materiales! ⚙️",
-    "section": "La respuesta: Mecánica de Materiales",
-    "text": "La respuesta: Mecánica de Materiales\nBueno, todas estas preguntas son el corazón de la Mecánica de Materiales.\nEsta materia nos da las herramientas para pasar de “las fuerzas que actúan sobre un objeto” a entender “lo que le pasa al material del objeto por dentro”.",
-    "crumbs": [
-      "Inicio",
-      "Capítulo 1",
-      "Web"
-    ]
-  },
-  {
-    "objectID": "capitulo1/apunte.html#qué-son-las-estructuras",
-    "href": "capitulo1/apunte.html#qué-son-las-estructuras",
-    "title": "¡Arrancando con Resistencia de Materiales! ⚙️",
-    "section": "¿Qué son las “Estructuras”? 🏗️🚗✈️",
-    "text": "¿Qué son las “Estructuras”? 🏗️🚗✈️\nEn ingeniería, casi todo lo que construimos es una “estructura”. No pienses solo en cosas gigantes como puentes o edificios. Una estructura puede ser también el chasis de un auto, el ala de un avión o el brazo de un robot.\nBásicamente, es cualquier cosa hecha de varias partes (“miembros”) ensambladas para aguantar cargas sin romperse ni deformarse demasiado.\n\n\nNo vamos a diseñar un auto, pero…\nOjo, este curso no es “Diseño de Máquinas” ni “Diseño Estructural”. La Mecánica de Materiales te da la teoría y las herramientas fundamentales para que después, en esos otros cursos, puedas diseñar cosas específicas.\nDiseñar algo real implica pensar en muchas otras cosas:\n\nCosto: ¿Podemos fabricarlo sin fundirnos? 💰\nDurabilidad: ¿Cuánto tiempo va a durar funcionando bien?\nMantenimiento: ¿Es fácil de reparar o lubricar?",
-    "crumbs": [
-      "Inicio",
-      "Capítulo 1",
-      "Web"
-    ]
-  },
-  {
-    "objectID": "capitulo1/apunte.html#la-misma-idea-diferentes-aplicaciones",
-    "href": "capitulo1/apunte.html#la-misma-idea-diferentes-aplicaciones",
-    "title": "¡Arrancando con Resistencia de Materiales! ⚙️",
-    "section": "La misma idea, diferentes aplicaciones",
-    "text": "La misma idea, diferentes aplicaciones\nLo genial de la Mecánica de Materiales es que sus principios son universales y se aplican a todas las ramas de la ingeniería.\nEl principio para diseñar la viga de un puente es el mismo que para diseñar el eje de una máquina.\n¿Qué es lo que cambia entonces?\n\nEl tipo y la cantidad de carga.\nLos materiales y las formas de las piezas.\nLas normas de seguridad de cada industria.",
-    "crumbs": [
-      "Inicio",
-      "Capítulo 1",
-      "Web"
-    ]
-  },
-  {
-    "objectID": "capitulo1/apunte.html#el-corazón-del-asunto-análisis-y-diseño",
-    "href": "capitulo1/apunte.html#el-corazón-del-asunto-análisis-y-diseño",
-    "title": "¡Arrancando con Resistencia de Materiales! ⚙️",
-    "section": "El Corazón del Asunto: Análisis y Diseño",
-    "text": "El Corazón del Asunto: Análisis y Diseño\nEl objetivo final es entender la relación entre estas tres cosas:\nFuerza de Afuera ➡️ Esfuerzo (Fuerza Interna) ➡️ Deformación\nEl truco para dominar la materia es ¡HACER MUCHOS EJERCICIOS! La práctica es fundamental.",
-    "crumbs": [
-      "Inicio",
-      "Capítulo 1",
-      "Web"
-    ]
-  },
-  {
-    "objectID": "capitulo1/apunte.html#análisis-vs.-diseño",
-    "href": "capitulo1/apunte.html#análisis-vs.-diseño",
-    "title": "¡Arrancando con Resistencia de Materiales! ⚙️",
-    "section": "Análisis vs. Diseño",
-    "text": "Análisis vs. Diseño\nEn la práctica, te vas a encontrar con dos tipos de problemas:\n1. Análisis (Modo Detective 🕵️) Te dan la pieza y tienes que investigar: ¿cuánto esfuerzo sufre? o ¿cuál es la carga máxima que aguanta?\n\n2. Diseño (Modo Arquitecto/Ingeniero 👷) Te dan las cargas y los límites, y tu misión es definir: ¿de qué tamaño y forma tiene que ser la pieza para que sea segura?",
-    "crumbs": [
-      "Inicio",
-      "Capítulo 1",
-      "Web"
-    ]
-  },
-  {
-    "objectID": "capitulo1/apunte.html#consejos-clave-para-resolver-problemas",
-    "href": "capitulo1/apunte.html#consejos-clave-para-resolver-problemas",
-    "title": "¡Arrancando con Resistencia de Materiales! ⚙️",
-    "section": "Consejos Clave para Resolver Problemas",
-    "text": "Consejos Clave para Resolver Problemas\n1. ¡Dibuja, dibuja y dibuja! ✍️\n\nTe ayuda a entender el problema mucho más rápido.\nTe permite visualizar lo que está pasando.\n\n2. Sé Prolijo y Ordenado 🧘\n\nUn trabajo descuidado no sirve para repasar después.\nLa prolijidad te obliga a pensar de forma estructurada.",
-    "crumbs": [
-      "Inicio",
-      "Capítulo 1",
-      "Web"
-    ]
-  },
-  {
-    "objectID": "capitulo1/apunte.html#la-batalla-de-los-sistemas-métrico-vs.-imperial-vs.",
-    "href": "capitulo1/apunte.html#la-batalla-de-los-sistemas-métrico-vs.-imperial-vs.",
-    "title": "¡Arrancando con Resistencia de Materiales! ⚙️",
-    "section": "La Batalla de los Sistemas: Métrico vs. Imperial 🌍 vs. 🇺🇸",
-    "text": "La Batalla de los Sistemas: Métrico vs. Imperial 🌍 vs. 🇺🇸\nAunque el mundo de la ingeniería usa el Sistema Métrico (SI), en la práctica industrial (sobre todo en EE.UU.) el Sistema Imperial (pulgadas, libras) sigue muy presente.\nPara esta materia, no nos queda otra que aprender a trabajar cómodamente con los dos sistemas.\n\n\n\nRegla con ambos sistemas",
-    "crumbs": [
-      "Inicio",
-      "Capítulo 1",
-      "Web"
-    ]
-  },
-  {
-    "objectID": "capitulo1/apunte.html#por-qué-no-debería-asustarte",
-    "href": "capitulo1/apunte.html#por-qué-no-debería-asustarte",
-    "title": "¡Arrancando con Resistencia de Materiales! ⚙️",
-    "section": "¿Por qué no debería asustarte?",
-    "text": "¿Por qué no debería asustarte?\nAquí viene la buena noticia: a los materiales no les importa en qué los midas.\nLos principios de la Mecánica de Materiales son universales. La física de fondo no cambia.\nPasar de un sistema a otro es más fácil de lo que parece. Es solo un cambio en los números, no en las ideas fundamentales.",
-    "crumbs": [
-      "Inicio",
-      "Capítulo 1",
-      "Web"
     ]
   },
   {
@@ -609,136 +465,63 @@
     ]
   },
   {
-    "objectID": "capitulo2/presentacion.html#bienvenida",
-    "href": "capitulo2/presentacion.html#bienvenida",
-    "title": "¡Finalizando con Resistencia de Materiales! ⚙️",
-    "section": "Bienvenida",
-    "text": "Bienvenida\nLa Resistencia de Materiales es la materia que nos deja chusmear qué pasa adentro de los objetos cuando les aplicamos fuerzas.\n\n\n\n\n\n\nNota\n\n\nPiénsalo así: es el siguiente nivel después de lo que ya vieron en Estática y Dinámica.\n\nCon Estática, si algo no se mueve, calculamos las fuerzas para que se quede quieto.\nCon Dinámica, si se mueve, calculamos cómo lo hace.\n\n\n\n\nPero nos falta responder preguntas clave… ¿El material se la banca? ¿Se deforma? ¿Se rompe?",
+    "objectID": "capitulo1/contenido.html",
+    "href": "capitulo1/contenido.html",
+    "title": "Apunte Interactivo de Mecánica de Materiales",
+    "section": "",
+    "text": "La Mecánica de Materiales es una rama de la ingeniería que proporciona los principios fundamentales para el diseño y análisis estructural.\nEl objetivo principal de su estudio es comprender la relación entre las fuerzas exteriores aplicadas (cargas) y las fuerzas interiores o tensiones generadas en el material, así como las deformaciones resultantes.\nEsta base teórica se aplica al diseño de todo tipo de estructuras e ingenierías: máquinas, aviones, edificios y puentes.\nLa disciplina también es conocida como Resistencia de Materiales, y se diferencia de la Mecánica Teórica en que considera las propiedades reales de los cuerpos deformables, no ideales o rígidos.\n\n\n\nEsta sección define los dos conceptos básicos que describen el comportamiento interno (tensión) y externo (deformación) del material.\n\n\nLa tensión (σ) representa la intensidad de las fuerzas internas en un cuerpo generadas por la aplicación de cargas externas.\nPara analizarla, se realiza un corte imaginario (sección transversal) en el cuerpo y se traza un diagrama de cuerpo libre (DCL), donde se visualizan las fuerzas internas que equilibran la carga aplicada. Como se ve en la figura Figura 1\n\n\n\n\n\n\nFigura 1: Barra prismática cargada axialmente.\n\n\n\nEn una barra prismática cargada axialmente, la tensión normal se calcula como:\n\\[\n\\sigma = \\frac{P}{A}\n\\]\ndonde:\n\n\\(P\\): fuerza axial aplicada\n\\(A\\): área de la sección transversal\n\nPor convención:\n\nTensión de tracción → positiva (el elemento se alarga)\n\nTensión de compresión → negativa (el elemento se acorta)\n\nSi la carga se aplica a través del centroide (Baricentro) de la sección, se asume una distribución uniforme de la tensión.\n\n\n\n\nCuando se aplica una carga axial, la barra se alarga o acorta. El cambio total de longitud se denomina deformación (\\(\\delta\\)).\nLa deformación unitaria (\\(\\epsilon\\)), es una cantidad adimensional que mide la variación relativa de longitud:\n\\[\n\\epsilon = \\frac{\\delta}{L}\n\\]\ndonde:\n\n\\(\\delta = L_f - L_i\\): alargamiento o acortamiento total\n\\(L_i\\): longitud original\n\nPor convencion se expresa en % o en ‰, aunque tambien se expresa en unidades como mm/mm o m/m, aunque físicamente no tiene dimensiones.\n\n\n\n\n\nLas propiedades mecánicas de los materiales se determinan experimentalmente, usualmente mediante el ensayo de tracción.\nEl resultado se representa en el diagrama tensión–deformación unitaria, que describe el comportamiento del material bajo carga.\nPara un acero estructural típico, se observan las siguientes regiones y puntos característicos:\n\nLímite de proporcionalidad (P):\nRegión inicial donde tensión y deformación son proporcionales (ley lineal).\nElasticidad lineal y Ley de Hooke:\nEn este tramo, el material recupera su forma original al descargarlo.\nSe cumple: [ = E , ] donde ( E ) es el Módulo de Elasticidad (o de Young), que mide la rigidez del material.\nPunto de fluencia (Y):\nMomento en que el material comienza a ceder sin aumento apreciable de carga.\nMarca el límite práctico de trabajo en diseño estructural.\nPlasticidad:\nEl material soporta deformaciones permanentes sin recuperar su forma original al descargarlo.\nTensión última (U):\nMáxima carga que el material puede resistir antes de comenzar la fractura.\nFractura (F):\nPérdida total de resistencia; el material se rompe.\nDuctilidad y fragilidad:\nLos materiales dúctiles presentan gran deformación antes de romper, mientras que los frágiles fallan con poca deformación.\n\n\n\n\n\nAdemás de la tensión normal (perpendicular a la sección), existen las tensiones cortantes (τ), que actúan paralelas o tangenciales a la superficie del material.\n\n\n[ _ = ]\ndonde: - ( V ): fuerza cortante total\n- ( A ): área donde actúa\n\n\n\nEl esfuerzo cortante provoca una distorsión angular (γ), o cambio de forma del elemento.\n\n\n\nEn el rango elástico se cumple:\n[ = G , ]\ndonde ( G ) es el Módulo de Elasticidad al Cortante o Módulo de Rigidez, relacionado con ( E ) y la relación de Poisson (ν) por:\n[ G = ]\n\n\n\n\n\nCuando una barra es cargada axialmente, además del alargamiento o acortamiento longitudinal, se producen deformaciones laterales:\nun material traccionado se estrecha, y uno comprimido se ensancha.\nLa Relación de Poisson (ν) se define como:\n[ = - ]\nEl signo negativo refleja que las deformaciones tienen sentidos opuestos:\nsi la axial es positiva (tracción), la lateral es negativa (contracción).\n\n\n\n\nEl diseño estructural busca garantizar que los elementos resistan las cargas sin alcanzar la falla o deformaciones excesivas.\n\n\n\nFalla:\nPuede significar rotura, colapso o deformaciones inaceptables.\nFactor de seguridad (n):\nMargen utilizado para proteger contra la falla: [ n = ]\n**Tensión permisible (({perm})):**\nValor máximo admisible en servicio: [ {perm} = ] donde ( _Y ) es la tensión de fluencia.\nCargas de servicio:\nSon las cargas reales de operación, que deben mantenerse dentro del rango elástico del material.\n\n\n\n\n\n\nEste capítulo sienta las bases teóricas y conceptuales de la Mecánica de Materiales, introduciendo los vínculos entre: - Cargas aplicadas\n- Tensiones internas\n- Deformaciones resultantes",
     "crumbs": [
       "Inicio",
-      "Capítulo 2",
-      "Presentación"
+      "Capítulo 1",
+      "Web"
     ]
   },
   {
-    "objectID": "capitulo2/presentacion.html#para-qué-nos-sirve-todo-esto",
-    "href": "capitulo2/presentacion.html#para-qué-nos-sirve-todo-esto",
-    "title": "¡Finalizando con Resistencia de Materiales! ⚙️",
-    "section": "¿Para qué nos sirve todo esto?",
-    "text": "¿Para qué nos sirve todo esto?\nSaber solo las fuerzas de afuera no alcanza. Para que quede más claro, miremos esta estructura súper simple:\nCon Estática, podemos calcular las reacciones en los soportes y listo. Pero en la vida real, un ingeniero se hace otras preguntas…",
+    "objectID": "capitulo1/contenido.html#por-qué-necesitamos-esta-materia",
+    "href": "capitulo1/contenido.html#por-qué-necesitamos-esta-materia",
+    "title": "Apunte Interactivo de Mecánica de Materiales",
+    "section": "",
+    "text": "Porque en el mundo real, ningún material es perfectamente rígido. Todo se deforma. Un puente vibra, una columna se acorta, una chapa se dobla, una barra se estira. Y para diseñar estructuras seguras, tenemos que saber cuánto pueden deformarse antes de fallar y qué tan fuertes deben ser para soportar las cargas.\nImaginemos una viga apoyada en dos extremos y cargada en el medio. En Estática ya sabés calcular las reacciones. Pero acá surgen nuevas preguntas:\n\n¿Se doblará demasiado?\n\n¿Aguantará sin romperse?\n\nSi la tengo que diseñar, ¿qué dimensiones y forma convienen para que sea segura y económica?\n\nLo mismo vale para una barra, un tornillo o un pasador: cada parte de una estructura tiene que resistir su esfuerzo particular sin ceder.",
     "crumbs": [
       "Inicio",
-      "Capítulo 2",
-      "Presentación"
+      "Capítulo 1",
+      "Web"
     ]
   },
   {
-    "objectID": "capitulo2/presentacion.html#las-preguntas-del-millón",
-    "href": "capitulo2/presentacion.html#las-preguntas-del-millón",
-    "title": "¡Finalizando con Resistencia de Materiales! ⚙️",
-    "section": "Las preguntas del millón 🤔",
-    "text": "Las preguntas del millón 🤔\nPensemos en cada parte de la estructura:\n1. Sobre la viga BC:\n\nSi la viga ya existe, ¿aguanta las cargas o se rompe?\n¿Se va a doblar o deformar mucho? ¿Cuánto exactamente?\nSi la tengo que diseñar yo, ¿qué forma y tamaño me conviene para que sea barata pero segura?",
-    "crumbs": [
-      "Inicio",
-      "Capítulo 2",
-      "Presentación"
-    ]
+    "objectID": "crudo/texto.html",
+    "href": "crudo/texto.html",
+    "title": "Introducción",
+    "section": "",
+    "text": "La mecánica de materiales es una materia que investiga el efecto de las fuerzas aplicadas sobre los cuerpos. La mecánica de materiales es una continuación de la estática y de la dinámica. Si se aplican fuerzas a un cuerpo y no se produce movimiento, las reacciones que impiden el movimiento pueden calcularse aplicando las leyes de la estática. Si se produce movimiento, las aceleraciones y el movimiento pueden determinarse mediante los principios de la dinámica. Sin embargo, puede desearse alguna información que va más allá de la determinación de las fuerzas exteriores y del movimiento resultante.\nConsidérese, por ejemplo, el sistema mostrado en la Fig. 1.1; como está en equilibrio, las reacciones de la viga BC que son debidas a las fuerzas ejercidas por la barra soporte AB y el poste CD, pueden determinarse aplicando los principios de la estática. Sin embargo, hay otras preguntas que pueden hacerse relacionadas con esta estructura. Algunas de las preguntas más obvias pueden ser:\n\nSobre la viga BC:\n\n\nSi es una viga ya existente, ¿es lo suficientemente resistente para soportar las cargas aplicadas?\n¿Se flexionará o deformará excesivamente? y ¿cuál será la deflexión real?\nSi se va a diseñar (es decir, si se van a determinar sus dimensiones), ¿qué forma y medidas son más económicas y a la vez suficientemente seguras para evitar la contracción y la deflexión excesiva?\n\n\nSobre la barra soporte AB:\n\n\nSi existe, ¿es lo suficientemente resistente para soportar la reacción en B?\n¿Cuál es la máxima fuerza que puede soportar y cuánto se alargará?\nSi se va a diseñar, ¿qué forma y dimensiones debe tener la barra para prevenir una falla o una deflexión excesiva?\n\n\nSobre el poste CD:\n\n\nSi existe, ¿es lo suficientemente resistente para soportar la reac¬ ción necesaria en C?\n¿Cuál es la máxima fuerza que puede soportar?\nSi se va a diseñar, ¿qué forma y dimensiones son más económicas y a la vez suficientemente seguras para prevenir la contracción?\n\n\nSobre el pasador en A o en B:\n\n\nSi existe, ¿es lo suficientemente resistente para soportar la fuerza en la barra soporte?\n¿Cuál es la carga máxima que puede soportar?\nSi se va a diseñar, ¿qué tan grande debe ser?\n\nPreguntas de este tipo pueden contestarse mediante el estudio de la mecánica de materiales. Además de las preguntas ilustradas por la Fig. 1.1, hay una amplia variedad de otras aplicaciones apropiadas a todas las ramas de la ingeniería y la arquitectura. Los principios de estas aplicaciones son la base de este libro de texto.\n\n\n\nTodas las estructuras de ingeniería, ya sean máquinas, automóviles, aeroplanos, edificios, o puentes, se construyen ensamblando diversas partes, generalmente llamadas miembros, para formar el producto terminado. Una estructura se diseña determinando las dimensiones adecuadas a los distintos miembros de manera que puedan soportar las cargas aplicadas sin deformación excesiva ni fractura. La mecánica de materiales es la ciencia aplicada que proporciona los principios básicos para el diseño.\nEn este libro, el término “estructura” se usa en un sentido amplio para representar no solamente edificios y puentes comparativamente grandes, sino también máquinas, aviones, y realmente cualquier cosa que se diseñe para soportar cargas aplicadas. La mecánica de materiales no es un curso de diseño de maquinas ni de diseño estructural, pero proporciona las bases para esos cursos ofreciendo una teoría de diseño científico.\nEn el diseño de estructuras, además de la resistencia y de los requisitos de rigidez, se necesitan otras consideraciones. Algunas de ellas son costo, accesibilidad, lubricación, durabilidad, y detalles generales. La interrelación entre esas requisitos y los principios de la mecánica de materiales se estudia en los cursos de diseño de máquina y de diseño estructural.\nEl estudio de la mecánica de materiales no pertenece a ninguna rama de la ingeniería, pero proporciona los principios de diseño que tienen aplicación general. Por ejemplo, el diseño de una viga en un puente o un edificio, y el diseño de la estructura de una máquina sujeta a flexión, se basan exactamente en los mismos principios. La acción básica de los miembros es la misma. Las únicas diferencias reales están en la magnitud y tipo de cargas, en los detalles de forma y construcción, y en las especificaciones y requisitos sobre los cuales se basa el diseño.\n\n\n\nEl objeto de este libro de texto es desarrollar un conocimiento de la relación existente entre las fuerzas exteriores aplicadas a un cuerpo, las fuerzas interiores resultantes, llamadas esfuerzos , y las deformaciones resultantes. Los términos “esfuerzo” v “deformación” se definirán completamente en el capítulo 2. Los principios básicos y las definiciones que se van a desarrollar pueden aplicarse, generalmente, a cualquier material estructural, tal como el acero, aluminio, hormigon, plásticos, madera, vidrio, etc.\nAunque los principios básicos de la mecánica de materiales son relativamente pocos en número y no son particularmente difíciles, sus aplicaciones son muchas y variadas. La forma más eficiente de aprender cada tema y sus aplicaciones es resolver una gran variedad de problemas. La importancia de la resolución de problemas no puede ser sobrenfatizada.\nSe encuentran dos tipos de problemas. El primero es el de análisis. En problemas de este tino se conocen las dimensiones y el tipo de material de que está hecho el miembro. El problema tomará alguna de las dos formas siguientes:\n\nDeterminar el esfuerzo o la deformación para las cargas dadas.\nDeterminar las cargas máximas que pueden aplicarse, de manera que no se exceda un esluerzo o una deformación dados.\n\nUn segundo tipo de problemas es el de diseño. En este caso se dan a conocer las cargas aplicadas v los valores permisibles del esfuerzo o de la deformación. El problema es determinar las dimensiones del miembro que las soporta. Las preguntas (a) y (b) descritas en la sección 1.1 se refieren al análisis, mientras que las preguntas (c) corresponden a un problema de diseño.\nEn cada tipo de problema se necesita tener conocimiento de los tipos particulares de esfuerzo y deformación involucrados. Un conocimiento fundamental de la acción interna o resistencia del cuerpo causada por las fuerzas exteriores es la base de este libro.\nEn la solución de problemas, haga uso liberal de croquis v diagramas. Particularmente recomendamos esto por dos razones: (1) el tratamiento y el método general de solución de un problema puede entenderse más rápidamente después de que se ha dibujado una figura que represente el problema: (2) los dibujos ayudan al estudiante a visualizar la acción de los esfuerzos y deformaciones que se presentan por la acción de las cargas.\nOtro asunto de extrema importancia es el arreglo ordenado de la solución. Debe desarrollarse el hábito de la pulcritud tanto como sea posible. Un trabajo hecho de una manera descuidada, además de ser poco útil para una referencia posterior, tiende a complicar la solución del problema. El tiempo y el esfuerzo gastados en hacer estos diagramas y en resolver el problema con nitidez, producirá una mejor comprensión del mismo.\n\n\n\nLos Estados Unidos de Norteamérica son la última nación industrial en adoptar el sistema métrico. Sin embargo, as claro que dicho sistema llegará a ser, finalmente, el estándar. Esto no ocurrirá sin un gasto y resistencia, considerables, por parte de algunos sectores de la industria americana. Actualmente está teniendo lugar un periodo de transición hasta que la población y la industria lleguen a adoptar plenamente este sistema de medida.\nLos cálculos en ingeniería están utilizando clara y rápidamente las uni¬ dades del SI.* Sin embargo la nación está aún predominantemente acos¬ tumbrada al sistema Inglés de medida, y muchas componentes comerciales disponibles aún usan estas unidades. En un tema orientado hacia el diseño práctico tal como es la mecánica de materiales, estamos encarados al pro¬ blema dual de prepararnos con destreza y práctica, para hoy y el futuro. Consecuentemente, durante este periodo de transición, debemos familiari¬ zarnos con ambos sistemas de unidades.\nSin embargo, los principios de la mecánica de materiales se conservan iguales. El comportamiento de los materiales y los miembros no cambian con el sistema de medida. Solamente resulta diferente la representación de los valores cuantitativos. Consecuentemente, debe ser relativamente fácil la transición en lo que se refiere a la mecánica de materiales."
   },
   {
-    "objectID": "capitulo2/presentacion.html#la-respuesta-mecánica-de-materiales",
-    "href": "capitulo2/presentacion.html#la-respuesta-mecánica-de-materiales",
-    "title": "¡Finalizando con Resistencia de Materiales! ⚙️",
-    "section": "La respuesta: Mecánica de Materiales",
-    "text": "La respuesta: Mecánica de Materiales\nBueno, todas estas preguntas son el corazón de la Mecánica de Materiales.\nEsta materia nos da las herramientas para pasar de “las fuerzas que actúan sobre un objeto” a entender “lo que le pasa al material del objeto por dentro”.",
-    "crumbs": [
-      "Inicio",
-      "Capítulo 2",
-      "Presentación"
-    ]
+    "objectID": "crudo/texto.html#mecánica-de-materiales",
+    "href": "crudo/texto.html#mecánica-de-materiales",
+    "title": "Introducción",
+    "section": "",
+    "text": "La mecánica de materiales es una materia que investiga el efecto de las fuerzas aplicadas sobre los cuerpos. La mecánica de materiales es una continuación de la estática y de la dinámica. Si se aplican fuerzas a un cuerpo y no se produce movimiento, las reacciones que impiden el movimiento pueden calcularse aplicando las leyes de la estática. Si se produce movimiento, las aceleraciones y el movimiento pueden determinarse mediante los principios de la dinámica. Sin embargo, puede desearse alguna información que va más allá de la determinación de las fuerzas exteriores y del movimiento resultante.\nConsidérese, por ejemplo, el sistema mostrado en la Fig. 1.1; como está en equilibrio, las reacciones de la viga BC que son debidas a las fuerzas ejercidas por la barra soporte AB y el poste CD, pueden determinarse aplicando los principios de la estática. Sin embargo, hay otras preguntas que pueden hacerse relacionadas con esta estructura. Algunas de las preguntas más obvias pueden ser:\n\nSobre la viga BC:\n\n\nSi es una viga ya existente, ¿es lo suficientemente resistente para soportar las cargas aplicadas?\n¿Se flexionará o deformará excesivamente? y ¿cuál será la deflexión real?\nSi se va a diseñar (es decir, si se van a determinar sus dimensiones), ¿qué forma y medidas son más económicas y a la vez suficientemente seguras para evitar la contracción y la deflexión excesiva?\n\n\nSobre la barra soporte AB:\n\n\nSi existe, ¿es lo suficientemente resistente para soportar la reacción en B?\n¿Cuál es la máxima fuerza que puede soportar y cuánto se alargará?\nSi se va a diseñar, ¿qué forma y dimensiones debe tener la barra para prevenir una falla o una deflexión excesiva?\n\n\nSobre el poste CD:\n\n\nSi existe, ¿es lo suficientemente resistente para soportar la reac¬ ción necesaria en C?\n¿Cuál es la máxima fuerza que puede soportar?\nSi se va a diseñar, ¿qué forma y dimensiones son más económicas y a la vez suficientemente seguras para prevenir la contracción?\n\n\nSobre el pasador en A o en B:\n\n\nSi existe, ¿es lo suficientemente resistente para soportar la fuerza en la barra soporte?\n¿Cuál es la carga máxima que puede soportar?\nSi se va a diseñar, ¿qué tan grande debe ser?\n\nPreguntas de este tipo pueden contestarse mediante el estudio de la mecánica de materiales. Además de las preguntas ilustradas por la Fig. 1.1, hay una amplia variedad de otras aplicaciones apropiadas a todas las ramas de la ingeniería y la arquitectura. Los principios de estas aplicaciones son la base de este libro de texto."
   },
   {
-    "objectID": "capitulo2/presentacion.html#qué-son-las-estructuras",
-    "href": "capitulo2/presentacion.html#qué-son-las-estructuras",
-    "title": "¡Finalizando con Resistencia de Materiales! ⚙️",
-    "section": "¿Qué son las “Estructuras”? 🏗️🚗✈️",
-    "text": "¿Qué son las “Estructuras”? 🏗️🚗✈️\nEn ingeniería, casi todo lo que construimos es una “estructura”. No pienses solo en cosas gigantes como puentes o edificios. Una estructura puede ser también el chasis de un auto, el ala de un avión o el brazo de un robot.\nBásicamente, es cualquier cosa hecha de varias partes (“miembros”) ensambladas para aguantar cargas sin romperse ni deformarse demasiado.",
-    "crumbs": [
-      "Inicio",
-      "Capítulo 2",
-      "Presentación"
-    ]
+    "objectID": "crudo/texto.html#estructuras-de-ingeniería",
+    "href": "crudo/texto.html#estructuras-de-ingeniería",
+    "title": "Introducción",
+    "section": "",
+    "text": "Todas las estructuras de ingeniería, ya sean máquinas, automóviles, aeroplanos, edificios, o puentes, se construyen ensamblando diversas partes, generalmente llamadas miembros, para formar el producto terminado. Una estructura se diseña determinando las dimensiones adecuadas a los distintos miembros de manera que puedan soportar las cargas aplicadas sin deformación excesiva ni fractura. La mecánica de materiales es la ciencia aplicada que proporciona los principios básicos para el diseño.\nEn este libro, el término “estructura” se usa en un sentido amplio para representar no solamente edificios y puentes comparativamente grandes, sino también máquinas, aviones, y realmente cualquier cosa que se diseñe para soportar cargas aplicadas. La mecánica de materiales no es un curso de diseño de maquinas ni de diseño estructural, pero proporciona las bases para esos cursos ofreciendo una teoría de diseño científico.\nEn el diseño de estructuras, además de la resistencia y de los requisitos de rigidez, se necesitan otras consideraciones. Algunas de ellas son costo, accesibilidad, lubricación, durabilidad, y detalles generales. La interrelación entre esas requisitos y los principios de la mecánica de materiales se estudia en los cursos de diseño de máquina y de diseño estructural.\nEl estudio de la mecánica de materiales no pertenece a ninguna rama de la ingeniería, pero proporciona los principios de diseño que tienen aplicación general. Por ejemplo, el diseño de una viga en un puente o un edificio, y el diseño de la estructura de una máquina sujeta a flexión, se basan exactamente en los mismos principios. La acción básica de los miembros es la misma. Las únicas diferencias reales están en la magnitud y tipo de cargas, en los detalles de forma y construcción, y en las especificaciones y requisitos sobre los cuales se basa el diseño."
   },
   {
-    "objectID": "capitulo2/presentacion.html#la-misma-idea-diferentes-aplicaciones",
-    "href": "capitulo2/presentacion.html#la-misma-idea-diferentes-aplicaciones",
-    "title": "¡Finalizando con Resistencia de Materiales! ⚙️",
-    "section": "La misma idea, diferentes aplicaciones",
-    "text": "La misma idea, diferentes aplicaciones\nLo genial de la Mecánica de Materiales es que sus principios son universales y se aplican a todas las ramas de la ingeniería.\nEl principio para diseñar la viga de un puente es el mismo que para diseñar el eje de una máquina.\n¿Qué es lo que cambia entonces?\n\nEl tipo y la cantidad de carga.\nLos materiales y las formas de las piezas.\nLas normas de seguridad de cada industria.",
-    "crumbs": [
-      "Inicio",
-      "Capítulo 2",
-      "Presentación"
-    ]
+    "objectID": "crudo/texto.html#análisis-y-diseño",
+    "href": "crudo/texto.html#análisis-y-diseño",
+    "title": "Introducción",
+    "section": "",
+    "text": "El objeto de este libro de texto es desarrollar un conocimiento de la relación existente entre las fuerzas exteriores aplicadas a un cuerpo, las fuerzas interiores resultantes, llamadas esfuerzos , y las deformaciones resultantes. Los términos “esfuerzo” v “deformación” se definirán completamente en el capítulo 2. Los principios básicos y las definiciones que se van a desarrollar pueden aplicarse, generalmente, a cualquier material estructural, tal como el acero, aluminio, hormigon, plásticos, madera, vidrio, etc.\nAunque los principios básicos de la mecánica de materiales son relativamente pocos en número y no son particularmente difíciles, sus aplicaciones son muchas y variadas. La forma más eficiente de aprender cada tema y sus aplicaciones es resolver una gran variedad de problemas. La importancia de la resolución de problemas no puede ser sobrenfatizada.\nSe encuentran dos tipos de problemas. El primero es el de análisis. En problemas de este tino se conocen las dimensiones y el tipo de material de que está hecho el miembro. El problema tomará alguna de las dos formas siguientes:\n\nDeterminar el esfuerzo o la deformación para las cargas dadas.\nDeterminar las cargas máximas que pueden aplicarse, de manera que no se exceda un esluerzo o una deformación dados.\n\nUn segundo tipo de problemas es el de diseño. En este caso se dan a conocer las cargas aplicadas v los valores permisibles del esfuerzo o de la deformación. El problema es determinar las dimensiones del miembro que las soporta. Las preguntas (a) y (b) descritas en la sección 1.1 se refieren al análisis, mientras que las preguntas (c) corresponden a un problema de diseño.\nEn cada tipo de problema se necesita tener conocimiento de los tipos particulares de esfuerzo y deformación involucrados. Un conocimiento fundamental de la acción interna o resistencia del cuerpo causada por las fuerzas exteriores es la base de este libro.\nEn la solución de problemas, haga uso liberal de croquis v diagramas. Particularmente recomendamos esto por dos razones: (1) el tratamiento y el método general de solución de un problema puede entenderse más rápidamente después de que se ha dibujado una figura que represente el problema: (2) los dibujos ayudan al estudiante a visualizar la acción de los esfuerzos y deformaciones que se presentan por la acción de las cargas.\nOtro asunto de extrema importancia es el arreglo ordenado de la solución. Debe desarrollarse el hábito de la pulcritud tanto como sea posible. Un trabajo hecho de una manera descuidada, además de ser poco útil para una referencia posterior, tiende a complicar la solución del problema. El tiempo y el esfuerzo gastados en hacer estos diagramas y en resolver el problema con nitidez, producirá una mejor comprensión del mismo."
   },
   {
-    "objectID": "capitulo2/presentacion.html#el-corazón-del-asunto-análisis-y-diseño",
-    "href": "capitulo2/presentacion.html#el-corazón-del-asunto-análisis-y-diseño",
-    "title": "¡Finalizando con Resistencia de Materiales! ⚙️",
-    "section": "El Corazón del Asunto: Análisis y Diseño",
-    "text": "El Corazón del Asunto: Análisis y Diseño\nEl objetivo final es entender la relación entre estas tres cosas:\nFuerza de Afuera ➡️ Esfuerzo (Fuerza Interna) ➡️ Deformación\nEl truco para dominar la materia es ¡HACER MUCHOS EJERCICIOS! La práctica es fundamental.",
-    "crumbs": [
-      "Inicio",
-      "Capítulo 2",
-      "Presentación"
-    ]
-  },
-  {
-    "objectID": "capitulo2/presentacion.html#análisis-vs.-diseño",
-    "href": "capitulo2/presentacion.html#análisis-vs.-diseño",
-    "title": "¡Finalizando con Resistencia de Materiales! ⚙️",
-    "section": "Análisis vs. Diseño",
-    "text": "Análisis vs. Diseño\nEn la práctica, te vas a encontrar con dos tipos de problemas:\n1. Análisis (Modo Detective 🕵️) Te dan la pieza y tienes que investigar: ¿cuánto esfuerzo sufre? o ¿cuál es la carga máxima que aguanta?",
-    "crumbs": [
-      "Inicio",
-      "Capítulo 2",
-      "Presentación"
-    ]
-  },
-  {
-    "objectID": "capitulo2/presentacion.html#consejos-clave-para-resolver-problemas",
-    "href": "capitulo2/presentacion.html#consejos-clave-para-resolver-problemas",
-    "title": "¡Finalizando con Resistencia de Materiales! ⚙️",
-    "section": "Consejos Clave para Resolver Problemas",
-    "text": "Consejos Clave para Resolver Problemas\n1. ¡Dibuja, dibuja y dibuja! ✍️\n\nTe ayuda a entender el problema mucho más rápido.\nTe permite visualizar lo que está pasando.\n\n2. Sé Prolijo y Ordenado 🧘\n\nUn trabajo descuidado no sirve para repasar después.\nLa prolijidad te obliga a pensar de forma estructurada.",
-    "crumbs": [
-      "Inicio",
-      "Capítulo 2",
-      "Presentación"
-    ]
-  },
-  {
-    "objectID": "capitulo2/presentacion.html#la-batalla-de-los-sistemas-métrico-vs.-imperial-vs.",
-    "href": "capitulo2/presentacion.html#la-batalla-de-los-sistemas-métrico-vs.-imperial-vs.",
-    "title": "¡Finalizando con Resistencia de Materiales! ⚙️",
-    "section": "La Batalla de los Sistemas: Métrico vs. Imperial 🌍 vs. 🇺🇸",
-    "text": "La Batalla de los Sistemas: Métrico vs. Imperial 🌍 vs. 🇺🇸\nAunque el mundo de la ingeniería usa el Sistema Métrico (SI), en la práctica industrial (sobre todo en EE.UU.) el Sistema Imperial (pulgadas, libras) sigue muy presente.\nPara esta materia, no nos queda otra que aprender a trabajar cómodamente con los dos sistemas.\n\nRegla con ambos sistemas",
-    "crumbs": [
-      "Inicio",
-      "Capítulo 2",
-      "Presentación"
-    ]
-  },
-  {
-    "objectID": "capitulo2/presentacion.html#por-qué-no-debería-asustarte",
-    "href": "capitulo2/presentacion.html#por-qué-no-debería-asustarte",
-    "title": "¡Finalizando con Resistencia de Materiales! ⚙️",
-    "section": "¿Por qué no debería asustarte?",
-    "text": "¿Por qué no debería asustarte?\nAquí viene la buena noticia: a los materiales no les importa en qué los midas.\nLos principios de la Mecánica de Materiales son universales. La física de fondo no cambia.\nPasar de un sistema a otro es más fácil de lo que parece. Es solo un cambio en los números, no en las ideas fundamentales.",
-    "crumbs": [
-      "Inicio",
-      "Capítulo 2",
-      "Presentación"
-    ]
+    "objectID": "crudo/texto.html#sistemas-de-unidades",
+    "href": "crudo/texto.html#sistemas-de-unidades",
+    "title": "Introducción",
+    "section": "",
+    "text": "Los Estados Unidos de Norteamérica son la última nación industrial en adoptar el sistema métrico. Sin embargo, as claro que dicho sistema llegará a ser, finalmente, el estándar. Esto no ocurrirá sin un gasto y resistencia, considerables, por parte de algunos sectores de la industria americana. Actualmente está teniendo lugar un periodo de transición hasta que la población y la industria lleguen a adoptar plenamente este sistema de medida.\nLos cálculos en ingeniería están utilizando clara y rápidamente las uni¬ dades del SI.* Sin embargo la nación está aún predominantemente acos¬ tumbrada al sistema Inglés de medida, y muchas componentes comerciales disponibles aún usan estas unidades. En un tema orientado hacia el diseño práctico tal como es la mecánica de materiales, estamos encarados al pro¬ blema dual de prepararnos con destreza y práctica, para hoy y el futuro. Consecuentemente, durante este periodo de transición, debemos familiari¬ zarnos con ambos sistemas de unidades.\nSin embargo, los principios de la mecánica de materiales se conservan iguales. El comportamiento de los materiales y los miembros no cambian con el sistema de medida. Solamente resulta diferente la representación de los valores cuantitativos. Consecuentemente, debe ser relativamente fácil la transición en lo que se refiere a la mecánica de materiales."
   },
   {
     "objectID": "index.html",
@@ -753,5 +536,209 @@
     "title": "Bienvenida",
     "section": "",
     "text": "Capítulo 1: Introducción\nCapítulo 2: Despedida\nejemplo: Despedida\n\nCada capítulo incluye versión HTML, PDF, EPUB y presentación interactiva."
+  },
+  {
+    "objectID": "capitulo1/contenido.html#estructuras-de-ingeniería",
+    "href": "capitulo1/contenido.html#estructuras-de-ingeniería",
+    "title": "Apunte Interactivo de Mecánica de Materiales",
+    "section": "",
+    "text": "Cuando hablamos de estructuras, no nos referimos solo a edificios o puentes. Una bicicleta, un motor o incluso una silla también son estructuras: conjuntos de piezas que resisten fuerzas.\nEl trabajo del ingeniero consiste en determinar las dimensiones y materiales adecuados para que esas piezas soporten las cargas sin romperse ni deformarse más de lo permitido.\nEn el diseño estructural o de máquinas, además de la resistencia y la rigidez, hay que considerar otras cosas: costo, durabilidad, mantenimiento, facilidad de fabricación, etc. Pero la base de todo sigue siendo la misma: los principios que estudia la mecánica de materiales.\nPodemos decir que esta materia no pertenece a ninguna rama específica de la ingeniería, porque sus principios son universales. Los mismos conceptos de flexión, tracción o cortante se aplican igual en un puente, un avión o una grúa.",
+    "crumbs": [
+      "Inicio",
+      "Capítulo 1",
+      "Web"
+    ]
+  },
+  {
+    "objectID": "capitulo1/contenido.html#análisis-y-diseño",
+    "href": "capitulo1/contenido.html#análisis-y-diseño",
+    "title": "Apunte Interactivo de Mecánica de Materiales",
+    "section": "",
+    "text": "La mecánica de materiales se apoya en dos grandes tipos de problemas:\n\n\nSabemos las dimensiones y el material del elemento, y queremos saber: - Qué esfuerzo interno se genera con una carga dada. - Cuánto se deforma. - O cuál es la carga máxima que soporta sin superar un límite admisible.\nPor ejemplo:\n\n\nEl esfuerzo normal es 0.40 MPa\n\n\n\n\n\nEn este caso conocemos las cargas y los límites admisibles, y queremos saber qué tamaño o forma debe tener el elemento para no fallar. Por ejemplo, si el acero soporta 150 MPa de tensión, ¿qué área debe tener una barra que carga 12 kN?\n\n\nÁrea mínima requerida: 0.80 cm²\n\n\nEn ambos tipos de problemas, es fundamental dibujar un esquema, porque visualizar lo que pasa en el interior del cuerpo ayuda muchísimo. Los diagramas de cuerpo libre y los cortes son herramientas básicas.\nY, sobre todo, mantener el orden. En esta materia, un cálculo desprolijo lleva directo a un error conceptual.",
+    "crumbs": [
+      "Inicio",
+      "Capítulo 1",
+      "Web"
+    ]
+  },
+  {
+    "objectID": "capitulo1/contenido.html#sistemas-de-unidades",
+    "href": "capitulo1/contenido.html#sistemas-de-unidades",
+    "title": "Apunte Interactivo de Mecánica de Materiales",
+    "section": "",
+    "text": "Aunque hoy todo el mundo técnico usa el Sistema Internacional (SI), todavía se encuentran tablas o manuales con unidades inglesas (pulgadas, libras, psi, etc.). Saber pasar de un sistema al otro sigue siendo útil.\nPor suerte, los principios físicos no cambian. Si algo se dobla, se dobla igual en N·m o en lb·in. Solo cambian los números.\n\n\n10000 N = 2248.09 lbf\n200 MPa = 29007.54 psi",
+    "crumbs": [
+      "Inicio",
+      "Capítulo 1",
+      "Web"
+    ]
+  },
+  {
+    "objectID": "capitulo1/contenido.html#en-resumen",
+    "href": "capitulo1/contenido.html#en-resumen",
+    "title": "Apunte Interactivo de Mecánica de Materiales",
+    "section": "",
+    "text": "La mecánica de materiales nos enseña a mirar “dentro” de las estructuras. A entender cómo las fuerzas se transforman en esfuerzos internos y deformaciones, y cómo esos efectos determinan si una pieza es segura o no.\nMás adelante vas a ver temas como: - Esfuerzos normales y tangenciales. - Deformaciones axiales y angulares. - Flexión, cortante, torsión y pandeo. - Combinaciones de esfuerzos.\nCada uno de ellos tiene su propia historia, fórmulas y aplicaciones. Pero todos comparten una idea central: toda estructura resiste porque su material lo permite, no porque la estática diga que el sistema está en equilibrio.",
+    "crumbs": [
+      "Inicio",
+      "Capítulo 1",
+      "Web"
+    ]
+  },
+  {
+    "objectID": "capitulo1/contenido.html#para-practicar",
+    "href": "capitulo1/contenido.html#para-practicar",
+    "title": "Apunte Interactivo de Mecánica de Materiales",
+    "section": "",
+    "text": "Tomá una viga o barra de un ejercicio de Estática. Dibujá sus reacciones y luego tratá de estimar:\n\n¿Dónde habrá más esfuerzo interno?\n¿Cómo se deformará la pieza?\n\nCambiá las dimensiones o el material y observá cómo cambian los resultados de los cálculos interactivos.\nGuardá tus resultados y diagramas. Son la base para los temas que vienen: flexión, torsión, y combinaciones de cargas.\n\n\n\n“El ingeniero no diseña para que algo funcione; diseña para que no falle.”",
+    "crumbs": [
+      "Inicio",
+      "Capítulo 1",
+      "Web"
+    ]
+  },
+  {
+    "objectID": "capitulo1/contenido.html#concepto-de-tensión-σ",
+    "href": "capitulo1/contenido.html#concepto-de-tensión-σ",
+    "title": "Apunte Interactivo de Mecánica de Materiales",
+    "section": "2.1 1.2.1 Concepto de Tensión (σ)",
+    "text": "2.1 1.2.1 Concepto de Tensión (σ)\nLa tensión (σ) representa la intensidad de las fuerzas internas en un cuerpo generadas por la aplicación de cargas externas.\nPara analizarla, se realiza un corte imaginario (sección transversal) en el cuerpo y se traza un diagrama de cuerpo libre (DCL), donde se visualizan las fuerzas internas que equilibran la carga aplicada.\nEn una barra prismática cargada axialmente, la tensión normal se calcula como:\n[ = ]\ndonde: - ( P ): fuerza axial aplicada\n- ( A ): área de la sección transversal\nPor convención: - Tensión de tracción → positiva (el elemento se alarga)\n- Tensión de compresión → negativa (el elemento se acorta)\nSi la carga se aplica a través del centroide de la sección, se asume una distribución uniforme de la tensión.",
+    "crumbs": [
+      "Inicio",
+      "Capítulo 1",
+      "Web"
+    ]
+  },
+  {
+    "objectID": "capitulo1/contenido.html#concepto-de-deformación-δ-y-deformación-unitaria-ϵ",
+    "href": "capitulo1/contenido.html#concepto-de-deformación-δ-y-deformación-unitaria-ϵ",
+    "title": "Apunte Interactivo de Mecánica de Materiales",
+    "section": "2.2 1.2.2 Concepto de Deformación (δ) y Deformación Unitaria (ϵ)",
+    "text": "2.2 1.2.2 Concepto de Deformación (δ) y Deformación Unitaria (ϵ)\nCuando se aplica una carga axial, la barra se alarga o acorta.\nEl cambio total de longitud se denomina deformación (δ).\nLa deformación unitaria (ϵ), o strain, es una cantidad adimensional que mide la variación relativa de longitud:\n[ = ]\ndonde: - ( ): alargamiento o acortamiento total\n- ( L ): longitud original\nPor práctica, se expresa en unidades como mm/mm o m/m, aunque físicamente no tiene dimensiones.",
+    "crumbs": [
+      "Inicio",
+      "Capítulo 1",
+      "Web"
+    ]
+  },
+  {
+    "objectID": "capitulo1/contenido.html#cálculo-del-esfuerzo-cortante-medio",
+    "href": "capitulo1/contenido.html#cálculo-del-esfuerzo-cortante-medio",
+    "title": "Apunte Interactivo de Mecánica de Materiales",
+    "section": "4.1 Cálculo del esfuerzo cortante medio",
+    "text": "4.1 Cálculo del esfuerzo cortante medio\n[ _ = ]\ndonde: - ( V ): fuerza cortante total\n- ( A ): área donde actúa",
+    "crumbs": [
+      "Inicio",
+      "Capítulo 1",
+      "Web"
+    ]
+  },
+  {
+    "objectID": "capitulo1/contenido.html#deformación-angular-γ",
+    "href": "capitulo1/contenido.html#deformación-angular-γ",
+    "title": "Apunte Interactivo de Mecánica de Materiales",
+    "section": "4.2 Deformación angular (γ)",
+    "text": "4.2 Deformación angular (γ)\nEl esfuerzo cortante provoca una distorsión angular (γ), o cambio de forma del elemento.",
+    "crumbs": [
+      "Inicio",
+      "Capítulo 1",
+      "Web"
+    ]
+  },
+  {
+    "objectID": "capitulo1/contenido.html#ley-de-hooke-para-el-cortante",
+    "href": "capitulo1/contenido.html#ley-de-hooke-para-el-cortante",
+    "title": "Apunte Interactivo de Mecánica de Materiales",
+    "section": "4.3 Ley de Hooke para el cortante",
+    "text": "4.3 Ley de Hooke para el cortante\nEn el rango elástico se cumple:\n[ = G , ]\ndonde ( G ) es el Módulo de Elasticidad al Cortante o Módulo de Rigidez, relacionado con ( E ) y la relación de Poisson (ν) por:\n[ G = ]",
+    "crumbs": [
+      "Inicio",
+      "Capítulo 1",
+      "Web"
+    ]
+  },
+  {
+    "objectID": "capitulo1/contenido.html#conceptos-básicos",
+    "href": "capitulo1/contenido.html#conceptos-básicos",
+    "title": "Apunte Interactivo de Mecánica de Materiales",
+    "section": "6.1 Conceptos básicos",
+    "text": "6.1 Conceptos básicos\n\nFalla:\nPuede significar rotura, colapso o deformaciones inaceptables.\nFactor de seguridad (n):\nMargen utilizado para proteger contra la falla: [ n = ]\n**Tensión permisible (({perm})):**\nValor máximo admisible en servicio: [ {perm} = ] donde ( _Y ) es la tensión de fluencia.\nCargas de servicio:\nSon las cargas reales de operación, que deben mantenerse dentro del rango elástico del material.",
+    "crumbs": [
+      "Inicio",
+      "Capítulo 1",
+      "Web"
+    ]
+  },
+  {
+    "objectID": "capitulo1/contenido.html#tensión-normal-σ-y-deformación",
+    "href": "capitulo1/contenido.html#tensión-normal-σ-y-deformación",
+    "title": "Apunte Interactivo de Mecánica de Materiales",
+    "section": "",
+    "text": "Esta sección define los dos conceptos básicos que describen el comportamiento interno (tensión) y externo (deformación) del material.\n\n\nLa tensión (σ) representa la intensidad de las fuerzas internas en un cuerpo generadas por la aplicación de cargas externas.\nPara analizarla, se realiza un corte imaginario (sección transversal) en el cuerpo y se traza un diagrama de cuerpo libre (DCL), donde se visualizan las fuerzas internas que equilibran la carga aplicada. Como se ve en la figura Figura 1\n\n\n\n\n\n\nFigura 1: Barra prismática cargada axialmente.\n\n\n\nEn una barra prismática cargada axialmente, la tensión normal se calcula como:\n\\[\n\\sigma = \\frac{P}{A}\n\\]\ndonde:\n\n\\(P\\): fuerza axial aplicada\n\\(A\\): área de la sección transversal\n\nPor convención:\n\nTensión de tracción → positiva (el elemento se alarga)\n\nTensión de compresión → negativa (el elemento se acorta)\n\nSi la carga se aplica a través del centroide (Baricentro) de la sección, se asume una distribución uniforme de la tensión.\n\n\n\n\nCuando se aplica una carga axial, la barra se alarga o acorta. El cambio total de longitud se denomina deformación (\\(\\delta\\)).\nLa deformación unitaria (\\(\\epsilon\\)), es una cantidad adimensional que mide la variación relativa de longitud:\n\\[\n\\epsilon = \\frac{\\delta}{L}\n\\]\ndonde:\n\n\\(\\delta = L_f - L_i\\): alargamiento o acortamiento total\n\\(L_i\\): longitud original\n\nPor convencion se expresa en % o en ‰, aunque tambien se expresa en unidades como mm/mm o m/m, aunque físicamente no tiene dimensiones.",
+    "crumbs": [
+      "Inicio",
+      "Capítulo 1",
+      "Web"
+    ]
+  },
+  {
+    "objectID": "capitulo1/contenido.html#diagramas-tensióndeformación",
+    "href": "capitulo1/contenido.html#diagramas-tensióndeformación",
+    "title": "Apunte Interactivo de Mecánica de Materiales",
+    "section": "",
+    "text": "Las propiedades mecánicas de los materiales se determinan experimentalmente, usualmente mediante el ensayo de tracción.\nEl resultado se representa en el diagrama tensión–deformación unitaria, que describe el comportamiento del material bajo carga.\nPara un acero estructural típico, se observan las siguientes regiones y puntos característicos:\n\nLímite de proporcionalidad (P):\nRegión inicial donde tensión y deformación son proporcionales (ley lineal).\nElasticidad lineal y Ley de Hooke:\nEn este tramo, el material recupera su forma original al descargarlo.\nSe cumple: [ = E , ] donde ( E ) es el Módulo de Elasticidad (o de Young), que mide la rigidez del material.\nPunto de fluencia (Y):\nMomento en que el material comienza a ceder sin aumento apreciable de carga.\nMarca el límite práctico de trabajo en diseño estructural.\nPlasticidad:\nEl material soporta deformaciones permanentes sin recuperar su forma original al descargarlo.\nTensión última (U):\nMáxima carga que el material puede resistir antes de comenzar la fractura.\nFractura (F):\nPérdida total de resistencia; el material se rompe.\nDuctilidad y fragilidad:\nLos materiales dúctiles presentan gran deformación antes de romper, mientras que los frágiles fallan con poca deformación.",
+    "crumbs": [
+      "Inicio",
+      "Capítulo 1",
+      "Web"
+    ]
+  },
+  {
+    "objectID": "capitulo1/contenido.html#tensión-cortante-τ-y-deformación-angular-γ",
+    "href": "capitulo1/contenido.html#tensión-cortante-τ-y-deformación-angular-γ",
+    "title": "Apunte Interactivo de Mecánica de Materiales",
+    "section": "",
+    "text": "Además de la tensión normal (perpendicular a la sección), existen las tensiones cortantes (τ), que actúan paralelas o tangenciales a la superficie del material.\n\n\n[ _ = ]\ndonde: - ( V ): fuerza cortante total\n- ( A ): área donde actúa\n\n\n\nEl esfuerzo cortante provoca una distorsión angular (γ), o cambio de forma del elemento.\n\n\n\nEn el rango elástico se cumple:\n[ = G , ]\ndonde ( G ) es el Módulo de Elasticidad al Cortante o Módulo de Rigidez, relacionado con ( E ) y la relación de Poisson (ν) por:\n[ G = ]",
+    "crumbs": [
+      "Inicio",
+      "Capítulo 1",
+      "Web"
+    ]
+  },
+  {
+    "objectID": "capitulo1/contenido.html#deformaciones-laterales-y-relación-de-poisson-ν",
+    "href": "capitulo1/contenido.html#deformaciones-laterales-y-relación-de-poisson-ν",
+    "title": "Apunte Interactivo de Mecánica de Materiales",
+    "section": "",
+    "text": "Cuando una barra es cargada axialmente, además del alargamiento o acortamiento longitudinal, se producen deformaciones laterales:\nun material traccionado se estrecha, y uno comprimido se ensancha.\nLa Relación de Poisson (ν) se define como:\n[ = - ]\nEl signo negativo refleja que las deformaciones tienen sentidos opuestos:\nsi la axial es positiva (tracción), la lateral es negativa (contracción).",
+    "crumbs": [
+      "Inicio",
+      "Capítulo 1",
+      "Web"
+    ]
+  },
+  {
+    "objectID": "capitulo1/contenido.html#tensiones-permisibles-cargas-y-factor-de-seguridad",
+    "href": "capitulo1/contenido.html#tensiones-permisibles-cargas-y-factor-de-seguridad",
+    "title": "Apunte Interactivo de Mecánica de Materiales",
+    "section": "",
+    "text": "El diseño estructural busca garantizar que los elementos resistan las cargas sin alcanzar la falla o deformaciones excesivas.\n\n\n\nFalla:\nPuede significar rotura, colapso o deformaciones inaceptables.\nFactor de seguridad (n):\nMargen utilizado para proteger contra la falla: [ n = ]\n**Tensión permisible (({perm})):**\nValor máximo admisible en servicio: [ {perm} = ] donde ( _Y ) es la tensión de fluencia.\nCargas de servicio:\nSon las cargas reales de operación, que deben mantenerse dentro del rango elástico del material.",
+    "crumbs": [
+      "Inicio",
+      "Capítulo 1",
+      "Web"
+    ]
+  },
+  {
+    "objectID": "capitulo1/contenido.html#conclusión-del-capítulo",
+    "href": "capitulo1/contenido.html#conclusión-del-capítulo",
+    "title": "Apunte Interactivo de Mecánica de Materiales",
+    "section": "",
+    "text": "Este capítulo sienta las bases teóricas y conceptuales de la Mecánica de Materiales, introduciendo los vínculos entre: - Cargas aplicadas\n- Tensiones internas\n- Deformaciones resultantes",
+    "crumbs": [
+      "Inicio",
+      "Capítulo 1",
+      "Web"
+    ]
   }
 ]

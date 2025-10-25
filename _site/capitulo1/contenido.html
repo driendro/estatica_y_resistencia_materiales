@@ -6,9 +6,9 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="author" content="Ronconi Jorge">
+<meta name="author" content="Jorge — UTN La Plata">
 
-<title>¡Arrancando con Resistencia de Materiales! ⚙️ – Resistencia de Materiales</title>
+<title>Apunte Interactivo de Mecánica de Materiales – Resistencia de Materiales</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -68,6 +68,35 @@ ul.task-list li input[type="checkbox"] {
   }
 }</script>
 
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN") {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
 
 <link rel="stylesheet" href="styles.css">
 </head>
@@ -99,7 +128,7 @@ ul.task-list li input[type="checkbox"] {
     </a>
     <ul class="dropdown-menu" aria-labelledby="nav-menu-capítulos">    
         <li>
-    <a class="dropdown-item" href="../capitulo1/apunte.html">
+    <a class="dropdown-item" href="../capitulo1/contenido.html">
  <span class="dropdown-text">Capítulo 1: Introducción</span></a>
   </li>  
         <li>
@@ -137,7 +166,7 @@ ul.task-list li input[type="checkbox"] {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Alternar barra lateral" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../capitulo1/apunte.html">Capítulo 1</a></li><li class="breadcrumb-item"><a href="../capitulo1/apunte.html">Web</a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../capitulo1/contenido.html">Capítulo 1</a></li><li class="breadcrumb-item"><a href="../capitulo1/contenido.html">Web</a></li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Alternar barra lateral" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
     </div>
@@ -160,7 +189,7 @@ ul.task-list li input[type="checkbox"] {
       <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../capitulo1/apunte.html" class="sidebar-item-text sidebar-link active">
+  <a href="../capitulo1/contenido.html" class="sidebar-item-text sidebar-link active">
  <span class="menu-text">Web</span></a>
   </div>
 </li>
@@ -217,29 +246,36 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">En esta página</h2>
    
   <ul>
-  <li><a href="#bienvenida" id="toc-bienvenida" class="nav-link active" data-scroll-target="#bienvenida">Bienvenida</a></li>
-  <li><a href="#para-qué-nos-sirve-todo-esto" id="toc-para-qué-nos-sirve-todo-esto" class="nav-link" data-scroll-target="#para-qué-nos-sirve-todo-esto">¿Para qué nos sirve todo esto?</a></li>
-  <li><a href="#las-preguntas-del-millón" id="toc-las-preguntas-del-millón" class="nav-link" data-scroll-target="#las-preguntas-del-millón">Las preguntas del millón 🤔</a></li>
-  <li><a href="#la-respuesta-mecánica-de-materiales" id="toc-la-respuesta-mecánica-de-materiales" class="nav-link" data-scroll-target="#la-respuesta-mecánica-de-materiales">La respuesta: Mecánica de Materiales</a></li>
-  <li><a href="#qué-son-las-estructuras" id="toc-qué-son-las-estructuras" class="nav-link" data-scroll-target="#qué-son-las-estructuras">¿Qué son las “Estructuras”? 🏗️🚗✈️</a>
+  <li><a href="#introducción-a-la-mecánica-de-materiales" id="toc-introducción-a-la-mecánica-de-materiales" class="nav-link active" data-scroll-target="#introducción-a-la-mecánica-de-materiales">Introducción a la Mecánica de Materiales</a>
   <ul class="collapse">
-  <li><a href="#no-vamos-a-diseñar-un-auto-pero" id="toc-no-vamos-a-diseñar-un-auto-pero" class="nav-link" data-scroll-target="#no-vamos-a-diseñar-un-auto-pero">No vamos a diseñar un auto, pero…</a></li>
+  <li><a href="#tensión-normal-σ-y-deformación" id="toc-tensión-normal-σ-y-deformación" class="nav-link" data-scroll-target="#tensión-normal-σ-y-deformación">Tensión Normal (σ) y Deformación</a>
+  <ul class="collapse">
+  <li><a href="#concepto-de-tensión-σ" id="toc-concepto-de-tensión-σ" class="nav-link" data-scroll-target="#concepto-de-tensión-σ">Concepto de Tensión (σ)</a></li>
+  <li><a href="#concepto-de-deformación-δ-y-deformación-unitaria-ϵ" id="toc-concepto-de-deformación-δ-y-deformación-unitaria-ϵ" class="nav-link" data-scroll-target="#concepto-de-deformación-δ-y-deformación-unitaria-ϵ">Concepto de Deformación (δ) y Deformación Unitaria (ϵ)</a></li>
   </ul></li>
-  <li><a href="#la-misma-idea-diferentes-aplicaciones" id="toc-la-misma-idea-diferentes-aplicaciones" class="nav-link" data-scroll-target="#la-misma-idea-diferentes-aplicaciones">La misma idea, diferentes aplicaciones</a></li>
-  <li><a href="#el-corazón-del-asunto-análisis-y-diseño" id="toc-el-corazón-del-asunto-análisis-y-diseño" class="nav-link" data-scroll-target="#el-corazón-del-asunto-análisis-y-diseño">El Corazón del Asunto: Análisis y Diseño</a></li>
-  <li><a href="#análisis-vs.-diseño" id="toc-análisis-vs.-diseño" class="nav-link" data-scroll-target="#análisis-vs.-diseño">Análisis vs.&nbsp;Diseño</a></li>
-  <li><a href="#consejos-clave-para-resolver-problemas" id="toc-consejos-clave-para-resolver-problemas" class="nav-link" data-scroll-target="#consejos-clave-para-resolver-problemas">Consejos Clave para Resolver Problemas</a></li>
-  <li><a href="#la-batalla-de-los-sistemas-métrico-vs.-imperial-vs." id="toc-la-batalla-de-los-sistemas-métrico-vs.-imperial-vs." class="nav-link" data-scroll-target="#la-batalla-de-los-sistemas-métrico-vs.-imperial-vs.">La Batalla de los Sistemas: Métrico vs.&nbsp;Imperial 🌍 vs.&nbsp;🇺🇸</a></li>
-  <li><a href="#por-qué-no-debería-asustarte" id="toc-por-qué-no-debería-asustarte" class="nav-link" data-scroll-target="#por-qué-no-debería-asustarte">¿Por qué no debería asustarte?</a></li>
+  <li><a href="#diagramas-tensióndeformación" id="toc-diagramas-tensióndeformación" class="nav-link" data-scroll-target="#diagramas-tensióndeformación">Diagramas Tensión–Deformación</a></li>
+  <li><a href="#tensión-cortante-τ-y-deformación-angular-γ" id="toc-tensión-cortante-τ-y-deformación-angular-γ" class="nav-link" data-scroll-target="#tensión-cortante-τ-y-deformación-angular-γ">Tensión Cortante (τ) y Deformación Angular (γ)</a>
+  <ul class="collapse">
+  <li><a href="#cálculo-del-esfuerzo-cortante-medio" id="toc-cálculo-del-esfuerzo-cortante-medio" class="nav-link" data-scroll-target="#cálculo-del-esfuerzo-cortante-medio">Cálculo del esfuerzo cortante medio</a></li>
+  <li><a href="#deformación-angular-γ" id="toc-deformación-angular-γ" class="nav-link" data-scroll-target="#deformación-angular-γ">Deformación angular (γ)</a></li>
+  <li><a href="#ley-de-hooke-para-el-cortante" id="toc-ley-de-hooke-para-el-cortante" class="nav-link" data-scroll-target="#ley-de-hooke-para-el-cortante">Ley de Hooke para el cortante</a></li>
+  </ul></li>
+  <li><a href="#deformaciones-laterales-y-relación-de-poisson-ν" id="toc-deformaciones-laterales-y-relación-de-poisson-ν" class="nav-link" data-scroll-target="#deformaciones-laterales-y-relación-de-poisson-ν">Deformaciones Laterales y Relación de Poisson (ν)</a></li>
+  <li><a href="#tensiones-permisibles-cargas-y-factor-de-seguridad" id="toc-tensiones-permisibles-cargas-y-factor-de-seguridad" class="nav-link" data-scroll-target="#tensiones-permisibles-cargas-y-factor-de-seguridad">Tensiones Permisibles, Cargas y Factor de Seguridad</a>
+  <ul class="collapse">
+  <li><a href="#conceptos-básicos" id="toc-conceptos-básicos" class="nav-link" data-scroll-target="#conceptos-básicos">Conceptos básicos</a></li>
+  </ul></li>
+  <li><a href="#conclusión-del-capítulo" id="toc-conclusión-del-capítulo" class="nav-link" data-scroll-target="#conclusión-del-capítulo">Conclusión del Capítulo</a></li>
+  </ul></li>
   </ul>
-<div class="quarto-alternate-formats"><h2>Otros formatos</h2><ul><li><a href="presentacion.html"><i class="bi bi-file-slides"></i>RevealJS</a></li><li><a href="contenido.epub"><i class="bi bi-file"></i>ePub</a></li><li><a href="capitulo1.pdf"><i class="bi bi-file-pdf"></i>PDF</a></li></ul></div></nav>
+</nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
-<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../capitulo1/apunte.html">Capítulo 1</a></li><li class="breadcrumb-item"><a href="../capitulo1/apunte.html">Web</a></li></ol></nav>
+<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../capitulo1/contenido.html">Capítulo 1</a></li><li class="breadcrumb-item"><a href="../capitulo1/contenido.html">Web</a></li></ol></nav>
 <div class="quarto-title">
-<h1 class="title">¡Arrancando con Resistencia de Materiales! ⚙️</h1>
+<h1 class="title">Apunte Interactivo de Mecánica de Materiales</h1>
 </div>
 
 
@@ -249,10 +285,16 @@ ul.task-list li input[type="checkbox"] {
     <div>
     <div class="quarto-title-meta-heading">Autor/a</div>
     <div class="quarto-title-meta-contents">
-             <p>Ronconi Jorge </p>
+             <p>Jorge — UTN La Plata </p>
           </div>
   </div>
     
+    <div>
+    <div class="quarto-title-meta-heading">Fecha de publicación</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">22 de octubre de 2025</p>
+    </div>
+  </div>
   
     
   </div>
@@ -262,139 +304,147 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<section id="bienvenida" class="level2">
-<h2 class="anchored" data-anchor-id="bienvenida">Bienvenida</h2>
-<p>La <strong>Resistencia de Materiales</strong> es la materia que nos deja chusmear qué pasa <em>adentro</em> de los objetos cuando les aplicamos fuerzas.</p>
-<div class="callout callout-style-default callout-note callout-titled">
-<div class="callout-header d-flex align-content-center">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
+<section id="introducción-a-la-mecánica-de-materiales" class="level1">
+<h1>Introducción a la Mecánica de Materiales</h1>
+<p>La <strong>Mecánica de Materiales</strong> es una rama de la ingeniería que proporciona los principios fundamentales para el <strong>diseño y análisis estructural</strong>.<br>
+El objetivo principal de su estudio es comprender la relación entre las <strong>fuerzas exteriores aplicadas</strong> (cargas) y las <strong>fuerzas interiores o tensiones</strong> generadas en el material, así como las <strong>deformaciones</strong> resultantes.</p>
+<p>Esta base teórica se aplica al diseño de todo tipo de estructuras e ingenierías: máquinas, aviones, edificios y puentes.<br>
+La disciplina también es conocida como <strong>Resistencia de Materiales</strong>, y se diferencia de la <strong>Mecánica Teórica</strong> en que considera las <strong>propiedades reales de los cuerpos deformables</strong>, no ideales o rígidos.</p>
+<hr>
+<section id="tensión-normal-σ-y-deformación" class="level2">
+<h2 class="anchored" data-anchor-id="tensión-normal-σ-y-deformación">Tensión Normal (σ) y Deformación</h2>
+<p>Esta sección define los dos conceptos básicos que describen el comportamiento interno (tensión) y externo (deformación) del material.</p>
+<section id="concepto-de-tensión-σ" class="level3">
+<h3 class="anchored" data-anchor-id="concepto-de-tensión-σ">Concepto de Tensión (σ)</h3>
+<p>La <strong>tensión (σ)</strong> representa la intensidad de las <strong>fuerzas internas</strong> en un cuerpo generadas por la aplicación de cargas externas.<br>
+Para analizarla, se realiza un <strong>corte imaginario</strong> (sección transversal) en el cuerpo y se traza un <strong>diagrama de cuerpo libre (DCL)</strong>, donde se visualizan las fuerzas internas que equilibran la carga aplicada. Como se ve en la figura <a href="#fig-barra-traccionada" class="quarto-xref">Figura&nbsp;1</a></p>
+<div id="fig-barra-traccionada" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-barra-traccionada-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="media/img/barra_traccionada.png" class="img-fluid figure-img" style="width:70.0%">
 </div>
-<div class="callout-title-container flex-fill">
-Nota
-</div>
-</div>
-<div class="callout-body-container callout-body">
-<p>Piénsalo así: es el siguiente nivel después de lo que ya vieron en <strong>Estática</strong> y <strong>Dinámica</strong>.</p>
-<ul>
-<li>Con <strong>Estática</strong>, si algo no se mueve, calculamos las fuerzas para que se quede quieto.</li>
-<li>Con <strong>Dinámica</strong>, si se mueve, calculamos cómo lo hace.</li>
-</ul>
-</div>
-</div>
-<p>Pero nos falta responder preguntas clave… ¿El material se la banca? ¿Se deforma? ¿Se rompe?</p>
-<hr>
-</section>
-<section id="para-qué-nos-sirve-todo-esto" class="level2">
-<h2 class="anchored" data-anchor-id="para-qué-nos-sirve-todo-esto">¿Para qué nos sirve todo esto?</h2>
-<p>Saber solo las fuerzas de afuera no alcanza. Para que quede más claro, miremos esta estructura súper simple:</p>
-<p>Con Estática, podemos calcular las reacciones en los soportes y listo. Pero en la vida real, un ingeniero se hace otras preguntas…</p>
-<hr>
-</section>
-<section id="las-preguntas-del-millón" class="level2">
-<h2 class="anchored" data-anchor-id="las-preguntas-del-millón">Las preguntas del millón 🤔</h2>
-<p>Pensemos en cada parte de la estructura:</p>
-<p><strong>1. Sobre la viga BC:</strong></p>
-<ul>
-<li>Si la viga ya existe, <strong>¿aguanta las cargas o se rompe?</strong></li>
-<li>¿Se va a doblar o deformar mucho? <strong>¿Cuánto exactamente?</strong></li>
-<li>Si la tengo que diseñar yo, ¿qué forma y tamaño me conviene para que sea <strong>barata pero segura</strong>?</li>
-</ul>
-<hr>
-<p><strong>2. Sobre la barra que la sostiene (AB):</strong></p>
-<ul>
-<li>Si ya está puesta, ¿se banca la fuerza que le llega desde la viga?</li>
-<li><strong>¿Cuál es la fuerza máxima que soporta</strong> y cuánto se va a estirar?</li>
-<li>Si la diseño de cero, ¿qué forma le doy para que no falle ni se estire de más?</li>
-</ul>
-<hr>
-<p><strong>3. Sobre los demás componentes…</strong></p>
-<p>También nos preguntamos sobre el <strong>poste de apoyo (CD)</strong> y los <strong>tornillos o pasadores (en A o B)</strong>: ¿son lo suficientemente robustos?, ¿cuál es la carga máxima que aguantan?, ¿qué tamaño deben tener?</p>
-<hr>
-</section>
-<section id="la-respuesta-mecánica-de-materiales" class="level2">
-<h2 class="anchored" data-anchor-id="la-respuesta-mecánica-de-materiales">La respuesta: Mecánica de Materiales</h2>
-<p>Bueno, <strong>todas estas preguntas son el corazón de la Mecánica de Materiales</strong>.</p>
-<p>Esta materia nos da las herramientas para pasar de <em>“las fuerzas que actúan sobre un objeto”</em> a entender <em>“lo que le pasa al material del objeto por dentro”</em>.</p>
-<hr>
-</section>
-<section id="qué-son-las-estructuras" class="level2">
-<h2 class="anchored" data-anchor-id="qué-son-las-estructuras">¿Qué son las “Estructuras”? 🏗️🚗✈️</h2>
-<p>En ingeniería, casi todo lo que construimos es una <strong>“estructura”</strong>. No pienses solo en cosas gigantes como puentes o edificios. Una estructura puede ser también el chasis de un auto, el ala de un avión o el brazo de un robot.</p>
-<p>Básicamente, es cualquier cosa hecha de varias partes (“miembros”) ensambladas para aguantar cargas sin romperse ni deformarse demasiado.</p>
-<hr>
-<section id="no-vamos-a-diseñar-un-auto-pero" class="level3">
-<h3 class="anchored" data-anchor-id="no-vamos-a-diseñar-un-auto-pero">No vamos a diseñar un auto, pero…</h3>
-<p>Ojo, este curso no es “Diseño de Máquinas” ni “Diseño Estructural”. La Mecánica de Materiales te da la <strong>teoría y las herramientas fundamentales</strong> para que después, en esos otros cursos, puedas diseñar cosas específicas.</p>
-<p>Diseñar algo real implica pensar en muchas otras cosas:</p>
-<ul>
-<li><strong>Costo:</strong> ¿Podemos fabricarlo sin fundirnos? 💰</li>
-<li><strong>Durabilidad:</strong> ¿Cuánto tiempo va a durar funcionando bien?</li>
-<li><strong>Mantenimiento:</strong> ¿Es fácil de reparar o lubricar?</li>
-</ul>
-<hr>
-</section>
-</section>
-<section id="la-misma-idea-diferentes-aplicaciones" class="level2">
-<h2 class="anchored" data-anchor-id="la-misma-idea-diferentes-aplicaciones">La misma idea, diferentes aplicaciones</h2>
-<p>Lo genial de la Mecánica de Materiales es que <strong>sus principios son universales</strong> y se aplican a todas las ramas de la ingeniería.</p>
-<p>El principio para diseñar la viga de un puente es el mismo que para diseñar el eje de una máquina.</p>
-<p><strong>¿Qué es lo que cambia entonces?</strong></p>
-<ul>
-<li>El <strong>tipo y la cantidad de carga</strong>.</li>
-<li>Los <strong>materiales</strong> y las <strong>formas</strong> de las piezas.</li>
-<li>Las <strong>normas de seguridad</strong> de cada industria.</li>
-</ul>
-<hr>
-</section>
-<section id="el-corazón-del-asunto-análisis-y-diseño" class="level2">
-<h2 class="anchored" data-anchor-id="el-corazón-del-asunto-análisis-y-diseño">El Corazón del Asunto: Análisis y Diseño</h2>
-<p>El objetivo final es entender la relación entre estas tres cosas:</p>
-<p><strong>Fuerza de Afuera ➡️ Esfuerzo (Fuerza Interna) ➡️ Deformación</strong></p>
-<p>El truco para dominar la materia es <strong>¡HACER MUCHOS EJERCICIOS!</strong> La práctica es fundamental.</p>
-<hr>
-</section>
-<section id="análisis-vs.-diseño" class="level2">
-<h2 class="anchored" data-anchor-id="análisis-vs.-diseño">Análisis vs.&nbsp;Diseño</h2>
-<p>En la práctica, te vas a encontrar con dos tipos de problemas:</p>
-<p><strong>1. Análisis (Modo Detective 🕵️)</strong> Te dan la pieza y tienes que investigar: ¿cuánto esfuerzo sufre? o ¿cuál es la carga máxima que aguanta?</p>
-<hr>
-<p><strong>2. Diseño (Modo Arquitecto/Ingeniero 👷)</strong> Te dan las cargas y los límites, y tu misión es definir: ¿de qué tamaño y forma tiene que ser la pieza para que sea segura?</p>
-<hr>
-</section>
-<section id="consejos-clave-para-resolver-problemas" class="level2">
-<h2 class="anchored" data-anchor-id="consejos-clave-para-resolver-problemas">Consejos Clave para Resolver Problemas</h2>
-<p><strong>1. ¡Dibuja, dibuja y dibuja! ✍️</strong></p>
-<ul>
-<li>Te ayuda a <strong>entender el problema mucho más rápido</strong>.</li>
-<li>Te permite <strong>visualizar lo que está pasando</strong>.</li>
-</ul>
-<p><strong>2. Sé Prolijo y Ordenado 🧘</strong></p>
-<ul>
-<li>Un trabajo descuidado no sirve para repasar después.</li>
-<li>La prolijidad te obliga a pensar de forma estructurada.</li>
-</ul>
-<hr>
-</section>
-<section id="la-batalla-de-los-sistemas-métrico-vs.-imperial-vs." class="level2">
-<h2 class="anchored" data-anchor-id="la-batalla-de-los-sistemas-métrico-vs.-imperial-vs.">La Batalla de los Sistemas: Métrico vs.&nbsp;Imperial 🌍 vs.&nbsp;🇺🇸</h2>
-<p>Aunque el mundo de la ingeniería usa el <strong>Sistema Métrico (SI)</strong>, en la práctica industrial (sobre todo en EE.UU.) el <strong>Sistema Imperial</strong> (pulgadas, libras) sigue muy presente.</p>
-<p>Para esta materia, no nos queda otra que <strong>aprender a trabajar cómodamente con los dos sistemas</strong>.</p>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="media/img/introduccion/regla.png" class="img-fluid figure-img"></p>
-<figcaption>Regla con ambos sistemas</figcaption>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-barra-traccionada-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figura&nbsp;1: Barra prismática cargada axialmente.
+</figcaption>
 </figure>
 </div>
+<p>En una <strong>barra prismática cargada axialmente</strong>, la tensión normal se calcula como:</p>
+<p><span class="math display">\[
+\sigma = \frac{P}{A}
+\]</span></p>
+<p>donde:</p>
+<ul>
+<li><span class="math inline">\(P\)</span>: fuerza axial aplicada</li>
+<li><span class="math inline">\(A\)</span>: área de la sección transversal</li>
+</ul>
+<p>Por convención:</p>
+<ul>
+<li><strong>Tensión de tracción</strong> → positiva (el elemento se alarga)<br>
+</li>
+<li><strong>Tensión de compresión</strong> → negativa (el elemento se acorta)</li>
+</ul>
+<p>Si la carga se aplica a través del <strong>centroide (Baricentro) de la sección</strong>, se asume una <strong>distribución uniforme</strong> de la tensión.</p>
 <hr>
 </section>
-<section id="por-qué-no-debería-asustarte" class="level2">
-<h2 class="anchored" data-anchor-id="por-qué-no-debería-asustarte">¿Por qué no debería asustarte?</h2>
-<p>Aquí viene la buena noticia: <strong>a los materiales no les importa en qué los midas.</strong></p>
-<p>Los principios de la Mecánica de Materiales son universales. La física de fondo no cambia.</p>
-<p>Pasar de un sistema a otro es más fácil de lo que parece. <strong>Es solo un cambio en los números, no en las ideas fundamentales.</strong></p>
+<section id="concepto-de-deformación-δ-y-deformación-unitaria-ϵ" class="level3">
+<h3 class="anchored" data-anchor-id="concepto-de-deformación-δ-y-deformación-unitaria-ϵ">Concepto de Deformación (δ) y Deformación Unitaria (ϵ)</h3>
+<p>Cuando se aplica una carga axial, la barra se <strong>alarga o acorta</strong>. El cambio total de longitud se denomina <strong>deformación (<span class="math inline">\(\delta\)</span>)</strong>.</p>
+<p>La <strong>deformación unitaria (<span class="math inline">\(\epsilon\)</span>)</strong>, es una cantidad adimensional que mide la variación relativa de longitud:</p>
+<p><span class="math display">\[
+\epsilon = \frac{\delta}{L}
+\]</span></p>
+<p>donde:</p>
+<ul>
+<li><span class="math inline">\(\delta = L_f - L_i\)</span>: alargamiento o acortamiento total</li>
+<li><span class="math inline">\(L_i\)</span>: longitud original</li>
+</ul>
+<p>Por convencion se expresa en <strong>%</strong> o en <strong>‰</strong>, aunque tambien se expresa en unidades como <strong>mm/mm</strong> o <strong>m/m</strong>, aunque físicamente no tiene dimensiones.</p>
+<hr>
+</section>
+</section>
+<section id="diagramas-tensióndeformación" class="level2">
+<h2 class="anchored" data-anchor-id="diagramas-tensióndeformación">Diagramas Tensión–Deformación</h2>
+<p>Las <strong>propiedades mecánicas</strong> de los materiales se determinan experimentalmente, usualmente mediante el <strong>ensayo de tracción</strong>.<br>
+El resultado se representa en el <strong>diagrama tensión–deformación unitaria</strong>, que describe el comportamiento del material bajo carga.</p>
+<p>Para un <strong>acero estructural típico</strong>, se observan las siguientes regiones y puntos característicos:</p>
+<ol type="1">
+<li><p><strong>Límite de proporcionalidad (P):</strong><br>
+Región inicial donde tensión y deformación son proporcionales (ley lineal).</p></li>
+<li><p><strong>Elasticidad lineal y Ley de Hooke:</strong><br>
+En este tramo, el material recupera su forma original al descargarlo.<br>
+Se cumple: [ = E , ] donde ( E ) es el <strong>Módulo de Elasticidad (o de Young)</strong>, que mide la rigidez del material.</p></li>
+<li><p><strong>Punto de fluencia (Y):</strong><br>
+Momento en que el material comienza a <strong>ceder</strong> sin aumento apreciable de carga.<br>
+Marca el <strong>límite práctico de trabajo</strong> en diseño estructural.</p></li>
+<li><p><strong>Plasticidad:</strong><br>
+El material soporta deformaciones <strong>permanentes</strong> sin recuperar su forma original al descargarlo.</p></li>
+<li><p><strong>Tensión última (U):</strong><br>
+Máxima carga que el material puede resistir antes de comenzar la fractura.</p></li>
+<li><p><strong>Fractura (F):</strong><br>
+Pérdida total de resistencia; el material se rompe.</p></li>
+<li><p><strong>Ductilidad y fragilidad:</strong><br>
+Los materiales <strong>dúctiles</strong> presentan gran deformación antes de romper, mientras que los <strong>frágiles</strong> fallan con poca deformación.</p></li>
+</ol>
+<hr>
+</section>
+<section id="tensión-cortante-τ-y-deformación-angular-γ" class="level2">
+<h2 class="anchored" data-anchor-id="tensión-cortante-τ-y-deformación-angular-γ">Tensión Cortante (τ) y Deformación Angular (γ)</h2>
+<p>Además de la tensión normal (perpendicular a la sección), existen las <strong>tensiones cortantes (τ)</strong>, que actúan <strong>paralelas o tangenciales</strong> a la superficie del material.</p>
+<section id="cálculo-del-esfuerzo-cortante-medio" class="level3">
+<h3 class="anchored" data-anchor-id="cálculo-del-esfuerzo-cortante-medio">Cálculo del esfuerzo cortante medio</h3>
+<p>[ _ = ]</p>
+<p>donde: - ( V ): fuerza cortante total<br>
+- ( A ): área donde actúa</p>
+</section>
+<section id="deformación-angular-γ" class="level3">
+<h3 class="anchored" data-anchor-id="deformación-angular-γ">Deformación angular (γ)</h3>
+<p>El esfuerzo cortante provoca una <strong>distorsión angular (γ)</strong>, o cambio de forma del elemento.</p>
+</section>
+<section id="ley-de-hooke-para-el-cortante" class="level3">
+<h3 class="anchored" data-anchor-id="ley-de-hooke-para-el-cortante">Ley de Hooke para el cortante</h3>
+<p>En el rango elástico se cumple:</p>
+<p>[ = G , ]</p>
+<p>donde ( G ) es el <strong>Módulo de Elasticidad al Cortante</strong> o <strong>Módulo de Rigidez</strong>, relacionado con ( E ) y la <strong>relación de Poisson (ν)</strong> por:</p>
+<p>[ G = ]</p>
+<hr>
+</section>
+</section>
+<section id="deformaciones-laterales-y-relación-de-poisson-ν" class="level2">
+<h2 class="anchored" data-anchor-id="deformaciones-laterales-y-relación-de-poisson-ν">Deformaciones Laterales y Relación de Poisson (ν)</h2>
+<p>Cuando una barra es cargada axialmente, además del alargamiento o acortamiento longitudinal, se producen <strong>deformaciones laterales</strong>:<br>
+un material traccionado se <strong>estrecha</strong>, y uno comprimido se <strong>ensancha</strong>.</p>
+<p>La <strong>Relación de Poisson (ν)</strong> se define como:</p>
+<p>[ = - ]</p>
+<p>El signo negativo refleja que las deformaciones tienen sentidos opuestos:<br>
+si la axial es positiva (tracción), la lateral es negativa (contracción).</p>
+<hr>
+</section>
+<section id="tensiones-permisibles-cargas-y-factor-de-seguridad" class="level2">
+<h2 class="anchored" data-anchor-id="tensiones-permisibles-cargas-y-factor-de-seguridad">Tensiones Permisibles, Cargas y Factor de Seguridad</h2>
+<p>El diseño estructural busca garantizar que los elementos <strong>resistan las cargas</strong> sin alcanzar la falla o deformaciones excesivas.</p>
+<section id="conceptos-básicos" class="level3">
+<h3 class="anchored" data-anchor-id="conceptos-básicos">Conceptos básicos</h3>
+<ul>
+<li><p><strong>Falla:</strong><br>
+Puede significar rotura, colapso o deformaciones inaceptables.</p></li>
+<li><p><strong>Factor de seguridad (n):</strong><br>
+Margen utilizado para proteger contra la falla: [ n = ]</p></li>
+<li><p>**Tensión permisible ((<em>{perm})):**<br>
+Valor máximo admisible en servicio: [ </em>{perm} = ] donde ( _Y ) es la tensión de fluencia.</p></li>
+<li><p><strong>Cargas de servicio:</strong><br>
+Son las <strong>cargas reales de operación</strong>, que deben mantenerse dentro del rango elástico del material.</p></li>
+</ul>
+<hr>
+</section>
+</section>
+<section id="conclusión-del-capítulo" class="level2">
+<h2 class="anchored" data-anchor-id="conclusión-del-capítulo">Conclusión del Capítulo</h2>
+<p>Este capítulo sienta las <strong>bases teóricas y conceptuales</strong> de la Mecánica de Materiales, introduciendo los vínculos entre: - Cargas aplicadas<br>
+- Tensiones internas<br>
+- Deformaciones resultantes</p>
 
 
+</section>
 </section>
 
 </main> <!-- /main -->

@@ -21,3 +21,110 @@ Este sitio contiene los apuntes, presentaciones y material de la materia de estr
 - [ejemplo: Despedida](ejemplo/contenido.qmd)
 
 Cada capítulo incluye versión HTML, PDF, EPUB y presentación interactiva.
+
+## Contenido - Nuevo
+
+# Capítulo 1: Introducción, Conceptos de Tension y Deformación
+
+**Resumen:**  
+Este capítulo fundamental establece la base para el diseño en ingeniería. Se define la *Mecánica de Materiales* como la rama de la ingeniería que proporciona los principios de diseño de aplicación general.  
+Se introduce el concepto de **tension (σ)**, que es la fuerza interior resultante causada por las fuerzas exteriores, y el concepto de **deformación (ϵ)**, que se refiere a los cambios de forma del sólido.  
+Se cubre la **relación entre tension y deformación (Ley de Hooke)**, la elasticidad, la proporcionalidad, el punto de fluencia, la tension último y el diagrama tension-deformación unitaria de materiales comunes.  
+Se introduce también el **módulo o relación de Poisson (ν)** y las tensiones cortantes.
+
+**Temas clave complementarios:**  
+- Tension de aplastamiento  
+- Rigidez y ductilidad de los materiales  
+- Propiedades mecánicas  
+
+
+# Capítulo 2: Equilibrio, Tensión y Representación de Mohr
+
+**Resumen:**  
+Este capítulo se centra en el estado de tensiones en un punto y su transformación.
+Se aborda el **Tensor de Tensiones** y la determinación de **Tensiones Principales**, que son las tensiones normales máximas y mínimas que ocurren en un punto.  
+Una herramienta esencial para visualizar y resolver problemas de tensiones en un punto es el **Círculo de Mohr**.  
+Además, se presenta el análisis tridimensional de la deformación.
+
+**Temas clave complementarios:**  
+- Ecuaciones generales para la deformación  
+- Mediciones de deformación  
+- Roseta de deformación  
+
+
+# Capítulo 3: Tracción, Compresión y Carga Axial
+
+**Resumen:**  
+Se analiza el comportamiento de los miembros sujetos a **carga axial** (tracción y compresión).  
+Se cubren el cálculo de **esfuerzos y deformación total (alargamiento/acortamiento)** en miembros prismáticos.  
+Se extienden estos conceptos para resolver **sistemas estáticamente indeterminados** para cargas axiales, donde se necesita la compatibilidad de las deformaciones además del equilibrio estático.
+
+**Temas clave complementarios:**  
+- Recipientes de pared delgada sometidos a presión interna  
+- Esfuerzos por temperatura (térmicos)  
+
+
+# Capítulo 4: Torsión Uniforme en Barras Rectas
+
+**Resumen:**  
+Este capítulo se dedica a las flechas circulares (ejes) sujetas a **torsión**.  
+Se estudia la **distribución de esfuerzo cortante** y el cálculo del **ángulo de torsión** para secciones circulares macizas y huecas.  
+También se discute la **transmisión de potencia en ejes giratorios** y se ofrecen nociones sobre la torsión de secciones no circulares.
+
+**Temas clave complementarios:**  
+- Diseño de ejes  
+- Acoplamiento de flechas  
+- Resortes helicoidales  
+
+
+# Capítulo 5: Flexión Pura y Esfuerzos en Vigas
+
+**Resumen:**  
+Se introducen las **vigas** como la geometría de barra recta más utilizada como elemento resistente.  
+Se definen y calculan la **fuerza cortante (V)** y el **momento flexionante (M)** en vigas.  
+Se enseña a trazar los **diagramas de fuerzas cortantes y momentos flexionantes**.  
+Se utiliza la **Fórmula de la Flexión (σ = Mc/I)** para calcular las tensiones normales en la sección transversal, y se introduce la fórmula para el **esfuerzo cortante horizontal (τ = VQ/It)** en vigas y elementos de pared delgada.
+
+**Temas clave complementarios:**  
+- Diseño de vigas  
+- Flexión pura  
+- Vigas no prismáticas  
+
+
+# Capítulo 6: Deflexión y Vigas Estáticamente Indeterminadas
+
+**Resumen:**  
+Se estudian los métodos para calcular la **deflexión (desplazamiento)** y la **pendiente (giro)** de las vigas, conceptos cruciales para asegurar la rigidez y para resolver estructuras indeterminadas.  
+Los métodos clásicos incluyen:  
+- Doble integración  
+- Método del área de momentos  
+- Superposición utilizando fórmulas estándar  
+
+Posteriormente, se aplican estos métodos a la resolución de **vigas estáticamente indeterminadas**, enfatizando técnicas de superposición o la ecuación de los tres momentos.
+
+
+# Capítulo 7: Esfuerzos Combinados y Teorías de Falla
+
+**Resumen:**  
+Este capítulo combina los conceptos de esfuerzos para analizar miembros sujetos a **cargas combinadas**.  
+Se aborda la **superposición de esfuerzos** (por ejemplo, axiales y de flexión) y la **flexión asimétrica**.  
+Se aplica el **Círculo de Mohr** para encontrar los **esfuerzos principales y cortantes máximos** resultantes de la combinación de tensiones normales y cortantes.  
+Finalmente, se estudian las **Teorías de Falla** (criterios de Tresca y Von Mises) para predecir cuándo el material alcanzará el estado de plastificación o rotura bajo estados de tensión complejos.
+
+
+# Capítulo 8: Inestabilidad y Diseño de Columnas
+
+**Resumen:**  
+Se aborda la **inestabilidad mecánica**, un fenómeno de pérdida de rigidez que ocurre súbitamente cuando las cargas alcanzan un valor crítico.  
+Se estudia el comportamiento de miembros a compresión, conocidos como **columnas**.  
+Se introduce la **Carga Crítica de Euler** para columnas largas y el concepto de **longitud de pandeo (o longitud efectiva)** y **esbeltez mecánica**.  
+Se discuten las **fórmulas empíricas de diseño** aplicables a columnas intermedias.
+
+
+# Capítulo 9: Comportamiento Inelástico y Métodos Energéticos
+
+**Resumen:**  
+Este capítulo cubre situaciones donde los esfuerzos exceden el **límite de proporcionalidad del material** (rango inelástico).  
+Se describe la acción inelástica en **cargas axiales, torsión y flexión**, incluyendo la redistribución de momentos y el cálculo del **momento totalmente plástico** en vigas.  
+Además, se exploran los **Métodos Energéticos** para calcular deflexiones, como el **Teorema de Castigliano** y el **Método del Trabajo Virtual**, técnicas poderosas para el análisis estructural y la resolución de problemas indeterminados.
+
